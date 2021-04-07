@@ -1,54 +1,15 @@
-EXERCISE 1.20 Define a Java class, called Patterns, modeled after OldMac-
-Donald, that will print the following patterns of asterisks, one after the other
+1.0 Define a Java class, called Patterns, that will print the following patterns of asterisks, one after the other
 heading down the page:
-
-∗∗∗∗∗
-∗∗∗∗
-∗∗∗
-∗∗
-∗
-∗∗∗∗∗
-∗
-∗
-∗
-∗
-∗
-∗
-∗∗∗∗∗
-∗∗∗∗∗
-∗ ∗ ∗
-∗ ∗
-∗ ∗ ∗
-∗∗∗∗∗
+
+    *****   *****   *****
+     ****   *   *   * * *
+      ***   *   *    * *
+       **   *   *   * * *
+        *   *****   *****
+
 EXERCISE 1.21 Write a Java class that prints your initials as block letters, as
 shown in the example in the margin.
-******
-*
-*
-*
-*
-******
-**
-* *
-* *
-*
-*
-*
-*
-**
-**
-* *
-* *
-* * * *
-*
-*
-*
-*
-*
-*
-*
-*
-*
+
 EXERCISE 1.22 Challenge: Define a class that represents a Temperature ob-
 ject. It should store the current temperature in an instance variable of type
 double, and it should have two public methods, setTemp(double t), which
