@@ -7,8 +7,16 @@ heading down the page:
        **   *   *   * * *
         *   *****   *****
 
-EXERCISE 1.21 Write a Java class that prints your initials as block letters, as
-shown in the example in the margin.
+1.1 Write a Java class that prints your initials as block letters, as the example below:
+
+    ******  *       *
+    *    *  **     **
+    *    *  * *   * *
+    ******  *  * *  *
+    **      *   *   *
+    * *     *       *
+    *  *    *       *
+    *   *   *       *
 
 EXERCISE 1.22 Challenge: Define a class that represents a Temperature ob-
 ject. It should store the current temperature in an instance variable of type
