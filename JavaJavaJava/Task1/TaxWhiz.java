@@ -6,4 +6,8 @@ public class TaxWhiz {
     TaxWhiz(double rate) {
         taxRate = rate;
     }
+
+    public double calcTax(double purchase) {
+        return taxRate * purchase;
+    }
 }
