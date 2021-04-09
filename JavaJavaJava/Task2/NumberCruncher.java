@@ -26,4 +26,8 @@ public class NumberCruncher {
     public int cubeNum() {
         return num*num*num;
     }
+
+    public static void main(String args[]) {
+        NumberCruncher val;
+    }
 }
