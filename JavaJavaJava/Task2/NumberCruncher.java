@@ -22,4 +22,8 @@ public class NumberCruncher {
     public int squareNum() {
         return num*num;
     }
+
+    public int cubeNum() {
+        return num*num*num;
+    }
 }
