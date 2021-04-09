@@ -14,4 +14,8 @@ public class NumberCruncher {
     public int doubleNum() {
         return 2*num;
     }
+
+    public int tripleNum() {
+        return 3*num;
+    }
 }
