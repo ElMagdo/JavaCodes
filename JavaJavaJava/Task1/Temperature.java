@@ -6,4 +6,8 @@ public class Temperature {
     public void setTemp(double t) {
         temp = t;
     }
+
+    public double getTemp() {
+        return temp;
+    }
 }
