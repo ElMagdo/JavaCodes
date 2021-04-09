@@ -10,4 +10,8 @@ public class TaxWhiz {
     public double calcTax(double purchase) {
         return taxRate * purchase;
     }
+
+    public static void main(String args[]) {
+        TaxWhiz tax1;
+    }
 }
