@@ -14,6 +14,8 @@ public class Temperature {
     public static void main(String[] args) {
         Temperature temp1 = new Temperature();
 
-        
+        temp1.setTemp(25.5);
+
+        System.out.println(temp1.getTemp());
     }
 }
