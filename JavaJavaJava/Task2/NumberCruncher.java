@@ -18,4 +18,8 @@ public class NumberCruncher {
     public int tripleNum() {
         return 3*num;
     }
+
+    public int squareNum() {
+        return num*num;
+    }
 }
