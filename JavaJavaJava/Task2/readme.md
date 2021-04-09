@@ -1,12 +1,6 @@
-EXERCISE 2.17 Define a Java class named NumberCruncher that has a single
-int variable as its only instance variable. Then define methods that perform the
-following operations on its number: get, double, triple, square, and cube. Set
-the initial value of the number with a constructor as was done with the instance
-variables in the Riddle class.
-EXERCISE 2.18 Write a main() method and add it to the NumberCruncher
-class defined in the previous problem. Use it to create a NumberCruncher in-
-stance, with a certain initial value, and then get it to report its double, triple,
-square, and cube.
+2.0 Define a Java class named `NumberCruncher` that has a single `int` variable as its only instance variable. Then define methods that perform the following operations on its number: `get`, `double`, `triple`, `square`, and `cube`. Set the initial value of the number with a `constructor`.  
+Write a main() method and add it to the NumberCruncher class. Use it to create a NumberCruncher instance, with a certain initial value, and then get it to report its double, triple,square, and cube.
+
 EXERCISE 2.19 Write a Java class definition for a Cube object, that has an inte-
 ger attribute for the length of its side. The object should be capable of reporting
 its surface area and volume. The surface area of a cube is six times the area of any
