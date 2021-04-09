@@ -31,7 +31,7 @@ public class NumberCruncher {
         NumberCruncher val;
         val = new NumberCruncher(5);
 
-        System.out.println();
+        System.out.println("The number is: " + val.getNum());
         System.out.println();
         System.out.println();
         System.out.println();
