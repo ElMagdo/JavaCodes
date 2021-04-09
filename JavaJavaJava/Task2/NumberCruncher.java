@@ -34,7 +34,7 @@ public class NumberCruncher {
         System.out.println("The number is: " + val.getNum());
         System.out.println("Double of the number: " + val.doubleNum());
         System.out.println("Triple of the number: " + val.tripleNum());
-        System.out.println();
+        System.out.println("Square of the number: " + val.squareNum());
         System.out.println();
     }
 }
