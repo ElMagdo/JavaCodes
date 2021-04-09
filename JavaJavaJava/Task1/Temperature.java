@@ -10,4 +10,10 @@ public class Temperature {
     public double getTemp() {
         return temp;
     }
+
+    public static void main(String[] args) {
+        Temperature temp1 = new Temperature();
+
+        
+    }
 }
