@@ -32,7 +32,7 @@ public class NumberCruncher {
         val = new NumberCruncher(5);
 
         System.out.println("The number is: " + val.getNum());
-        System.out.println();
+        System.out.println("Double of the number: " + val.doubleNum());
         System.out.println();
         System.out.println();
         System.out.println();
