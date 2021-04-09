@@ -29,5 +29,6 @@ public class NumberCruncher {
 
     public static void main(String args[]) {
         NumberCruncher val;
+        val = new NumberCruncher(5);
     }
 }
