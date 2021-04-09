@@ -6,4 +6,8 @@ public class NumberCruncher {
     NumberCruncher(int n) {
         num = n;
     }
+
+    public int get() {
+        return num;
+    }
 }
