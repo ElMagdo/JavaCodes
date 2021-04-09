@@ -7,7 +7,11 @@ public class NumberCruncher {
         num = n;
     }
 
-    public int get() {
+    public int getNum() {
         return num;
+    }
+
+    public int doubleNum() {
+        return 2*num;
     }
 }
