@@ -30,5 +30,11 @@ public class NumberCruncher {
     public static void main(String args[]) {
         NumberCruncher val;
         val = new NumberCruncher(5);
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 }
