@@ -10,4 +10,8 @@ public class Cube {
     public int surfaceArea() {
         return 6 * length * length;
     }
+
+    public int voloume() {
+        return length * length * length;
+    }
 }
