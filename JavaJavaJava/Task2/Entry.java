@@ -31,5 +31,6 @@ public class Entry {
 
     public static void main(String[] args) {
         Entry entry = new Entry();
+        String n, a, p;
     }
 }
