@@ -16,4 +16,8 @@ public class Entry {
     public void setAddress(String a) {
         address = a;
     }
+
+    public String getAddress() {
+        return address;
+    }
 }
