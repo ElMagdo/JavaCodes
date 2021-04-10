@@ -35,5 +35,12 @@ public class Cube {
 
         System.out.println("Cube's surface area: " + c2.surfaceArea());
         System.out.println("Cube's volume: " + c2.volume());
+
+        System.out.println("Enter the length of the cube: ");
+        l = sc.nextInt();
+        c3 = new Cube(l);
+
+        System.out.println("Cube's surface area: " + c3.surfaceArea());
+        System.out.println("Cube's volume: " + c3.volume());
     }
 }
