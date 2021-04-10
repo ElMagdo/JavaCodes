@@ -17,5 +17,6 @@ public class Cube {
 
     public static void main(String[] args) {
         Cube c1, c2, c3;
+        int l;
     }
 }
