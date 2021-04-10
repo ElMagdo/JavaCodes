@@ -1,5 +1,7 @@
 package JavaJavaJava.Task2;
 
+import java.util.Scanner;
+
 public class Entry {
     private String name;
     private String address;
@@ -32,5 +34,6 @@ public class Entry {
     public static void main(String[] args) {
         Entry entry = new Entry();
         String n, a, p;
+        Scanner sc = new Scanner(System.in);
     }
 }
