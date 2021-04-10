@@ -20,4 +20,8 @@ public class Entry {
     public String getAddress() {
         return address;
     }
+
+    public void setPhoneNumber(String p) {
+        phoneNumber = p;
+    }
 }
