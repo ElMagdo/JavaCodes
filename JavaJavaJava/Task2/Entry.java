@@ -47,5 +47,9 @@ public class Entry {
         System.out.println("Enter phone number: ");
         p = sc.next();
         entry.setPhoneNumber(p);
+
+        System.out.println("Name: " + entry.getName());
+        System.out.println("Address: " + entry.getAddress());
+        System.out.println("Phone number: " + entry.getPhoneNumber());
     }
 }
