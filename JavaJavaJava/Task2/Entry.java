@@ -12,4 +12,8 @@ public class Entry {
     public String getName() {
         return name;
     }
+
+    public void setAddress(String a) {
+        address = a;
+    }
 }
