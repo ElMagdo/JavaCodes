@@ -30,6 +30,6 @@ public class Entry {
     }
 
     public static void main(String[] args) {
-        Entry entry;
+        Entry entry = new Entry();
     }
 }
