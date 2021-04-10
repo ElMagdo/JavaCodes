@@ -11,7 +11,11 @@ public class Cube {
         return 6 * length * length;
     }
 
-    public int voloume() {
+    public int volume() {
         return length * length * length;
+    }
+
+    public static void main(String[] args) {
+        Cube c1, c2, c3;
     }
 }
