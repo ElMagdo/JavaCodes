@@ -38,11 +38,14 @@ public class Entry {
 
         System.out.println("Enter name: ");
         n = sc.next();
+        entry.setName(n);
 
         System.out.println("Enter address: ");
         a = sc.next();
+        entry.setAddress(a);
 
         System.out.println("Enter phone number: ");
         p = sc.next();
+        entry.setPhoneNumber(p);
     }
 }
