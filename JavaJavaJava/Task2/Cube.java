@@ -1,5 +1,7 @@
 package JavaJavaJava.Task2;
 
+import java.util.Scanner;
+
 public class Cube {
     private int length;
 
@@ -18,5 +20,6 @@ public class Cube {
     public static void main(String[] args) {
         Cube c1, c2, c3;
         int l;
+        Scanner sc = new Scanner(System.in);
     }
 }
