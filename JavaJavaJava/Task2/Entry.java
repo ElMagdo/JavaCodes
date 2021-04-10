@@ -24,4 +24,8 @@ public class Entry {
     public void setPhoneNumber(String p) {
         phoneNumber = p;
     }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
