@@ -4,8 +4,4 @@ Write a main() method and add it to the NumberCruncher class. Use it to create a
 2.1 Write a Java class definition for a `Cube object`, that has an integer attribute for the `length` of its side. The object should be capable of reporting its `surface area` and `volume`. The surface area of a cube is *six times the area of any side*. The volume is calculated by *cubing the side*.  
 Write a Java class definition for a `CubeUser object` that will use the Cube object. This class should create three Cube instances, each with a different side that the user will input, and then report their respective surface areas and volumes.
 
-EXERCISE 2.22 Challenge: Define a Java class that represents an address book
-entry, Entry, which consists of a name, address, and phone number, all repre-
-sented as Strings. For the class’s interface, define methods to set and get the
-values of each of its instance variables. Thus, for the name variable, it should have
-a setName() and a getName() method.
+2.2 Define a Java class that represents an address book entry, `Entry`, which consists of a `name`, `address`, and `phone number`, all represented as `Strings`. For the class’s interface, define methods to `set` and `get` the values of each of its instance variables. Thus, for the name variable, it should have a `setName()` and a `getName()` method.
