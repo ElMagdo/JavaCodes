@@ -6,4 +6,8 @@ public class Cube {
     Cube(int l) {
         length = l;
     }
+
+    public int surfaceArea() {
+        return 6 * length * length;
+    }
 }
