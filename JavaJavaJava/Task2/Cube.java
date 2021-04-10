@@ -21,5 +21,9 @@ public class Cube {
         Cube c1, c2, c3;
         int l;
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the length of the cube: ");
+        l = sc.nextInt();
+        c1 = new Cube(l);
     }
 }
