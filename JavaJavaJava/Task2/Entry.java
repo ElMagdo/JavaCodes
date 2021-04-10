@@ -35,5 +35,14 @@ public class Entry {
         Entry entry = new Entry();
         String n, a, p;
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter name: ");
+        n = sc.next();
+
+        System.out.println("Enter address: ");
+        a = sc.next();
+
+        System.out.println("Enter phone number: ");
+        p = sc.next();
     }
 }
