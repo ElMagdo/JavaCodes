@@ -51,5 +51,7 @@ public class Entry {
         System.out.println("Name: " + entry.getName());
         System.out.println("Address: " + entry.getAddress());
         System.out.println("Phone number: " + entry.getPhoneNumber());
+
+        sc.close();
     }
 }
