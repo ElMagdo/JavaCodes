@@ -42,5 +42,7 @@ public class Cube {
 
         System.out.println("Cube's surface area: " + c3.surfaceArea());
         System.out.println("Cube's volume: " + c3.volume());
+
+        sc.close();
     }
 }
