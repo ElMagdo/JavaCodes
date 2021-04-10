@@ -1,16 +1,5 @@
-EXERCISE 3.14 Write a Java application program called TwelveDays that
-prints the Christmas carol “Twelve Days of Christmas.” For this version, write a
-void method named intro() that takes a single String parameter that gives the
-day of the verse and prints the intro to the song. For example, intro("first")
-should print, “On the first day of Christmas my true love gave to me”. Then write
-methods day1(), day2(), and so on, each of which prints its version of the verse.
-Then write a main() method that calls the other methods to print the whole song.
-EXERCISE 3.15 Define a void method named verse that takes two String
-parameters and returns a verse of the Christmas carol “Twelve Days of Christ-
-mas.”
-For example, if you call this method with verse("first", "a
-partridge in a pear tree"), it should return, “On the first day of Christ-
-mas my true love gave to me, a partridge in a pear tree”.
+3.0 Write a Java application program called `TwelveDays` that prints the Christmas carol “Twelve Days of Christmas.” For this version, write a `void` method named `intro()` that takes a `single String` parameter that gives the day of the verse and prints the intro to the song. For example, `intro("first")` should print, “On the first day of Christmas my true love gave to me”. Then write methods `day1()`, `day2()`, and so on, each of which prints its version of the verse. Then write a `main()` method that calls the other methods to print the whole song.
+
 EXERCISE 3.16 Define a void method named permute, which takes three
 String parameters and prints out all possible arrangements of the three strings.
 For example, if you called permute("a", "b", "c"), it would produce the
