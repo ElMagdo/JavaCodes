@@ -12,4 +12,8 @@ public class B {
     public int m1() {
         return m*n;
     }
+
+    public static void main(String[] args) {
+        B b = new B(5, 2);
+    }
 }
