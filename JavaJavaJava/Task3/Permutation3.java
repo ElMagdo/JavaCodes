@@ -17,5 +17,8 @@ public class Permutation3 {
         Scanner sc = new Scanner(System.in);
 
         String a, b, c;
+
+        System.out.println("Enter first string: ");
+        a = sc.next();
     }
 }
