@@ -24,4 +24,8 @@ public class Donor {
     public String getRating() {
         return rating;
     }
+
+    public static void main(String[] args) {
+        Donor d1 = new Donor("Daniel", "high");
+    }
 }
