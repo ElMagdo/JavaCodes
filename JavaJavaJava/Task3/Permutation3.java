@@ -20,5 +20,8 @@ public class Permutation3 {
 
         System.out.println("Enter first string: ");
         a = sc.next();
+
+        System.out.println("Enter first string: ");
+        b = sc.next();
     }
 }
