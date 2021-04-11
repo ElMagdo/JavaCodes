@@ -27,5 +27,6 @@ public class Donor {
 
     public static void main(String[] args) {
         Donor d1 = new Donor("Daniel", "high");
+        Donor d2;
     }
 }
