@@ -2,12 +2,8 @@
 
 ***3.1*** Define a void method named `permute`, which takes `three String` parameters and prints out all possible arrangements of the three strings. Name your class, `Permutation3`. For example, if you called `permute("a", "b", "c")`, it would produce the following output: *abc, acb, bac, bca, cab, cba*, with each permutation on a separate line.
 
-EXERCISE 3.18 Define a class named Donor that has two instance variables,
-the donor’s name and rating, both of which are Strings. The name can
-be any string, but the rating should be one of the following values: “high,”
-“medium,” or “none.” Write the following methods for this class: a construc-
-tor, Donor(String,String), that allows you to set both the donor’s name and
-rating; and access methods to set and get both the name and rating of a donor.
+***3.2*** Define a class named `Donor` that has two instance variables, the donor’s `name` and `rating`, both of which are `Strings`. The name can be any string, but the rating should be one of the following values: “`high`,” “`medium`,” or “`none`". Write the following methods for this class: a constructor, `Donor(String,String)`, that allows you to set both the donor’s name and rating; and `access methods` to *set* and *get* both the name and rating of a donor.
+
 EXERCISE 3.19 Challenge. Define a CopyMonitor class that solves the fol-
 lowing problem. A company needs a monitor program to keep track of when a
 particular copy machine needs service. The device has two important (boolean)
