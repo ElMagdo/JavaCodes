@@ -1,5 +1,7 @@
 package JavaJavaJava.Task3;
 
+import java.util.Scanner;
+
 public class CopyMonitor {
     private boolean isLow;
     private boolean hasPrinted;
@@ -15,5 +17,7 @@ public class CopyMonitor {
 
     public static void main(String[] args) {
         CopyMonitor monitor = new CopyMonitor();
+
+        Scanner sc = new Scanner(System.in);
     }
 }
