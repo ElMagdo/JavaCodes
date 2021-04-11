@@ -40,5 +40,8 @@ public class Donor {
 
         System.out.println("Enter donor's name: ");
         n = sc.next();
+
+        System.out.println("Enter donor's rating: ");
+        r = sc.next();
     }
 }
