@@ -30,5 +30,7 @@ public class Permutation3 {
         c = sc.next();
 
         p.permute(a, b, c);
+
+        sc.close();
     }
 }
