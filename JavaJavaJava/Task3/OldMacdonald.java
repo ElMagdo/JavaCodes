@@ -8,4 +8,8 @@ public class OldMacdonald {
     public void hadAnX(String s) {
         System.out.println("Old MacDonald had a " + s);
     }
+
+    public void withA(String snd) {
+        System.out.println("With a " + s + "here");
+    }
 }
