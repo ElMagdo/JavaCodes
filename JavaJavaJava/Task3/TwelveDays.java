@@ -8,4 +8,8 @@ public class TwelveDays {
     public void day1() {
         System.out.println("a patridge in a pear tree");
     }
+
+    public void day2() {
+        System.out.println("two turtle doves");
+    }
 }
