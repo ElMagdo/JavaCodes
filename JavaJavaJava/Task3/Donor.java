@@ -32,5 +32,7 @@ public class Donor {
         Donor d2;
 
         Scanner sc = new Scanner(System.in);
+
+        String n, r;
     }
 }
