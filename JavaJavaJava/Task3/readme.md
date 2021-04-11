@@ -6,13 +6,8 @@
 
 ***3.3*** Define a `CopyMonitor` class that solves the following problem. A company needs a monitor program to keep track of when a particular copy machine needs service. The device has two important (`boolean`) variables: its `toner level` (too low or not) and whether it `has printed` more than `100,000` pages since its last servicing (it either has or has not). The servicing rule that the company uses is that service is needed when either 100,000 pages have been printed or the toner is too low. Your program should contain a method that reports either “`service needed`” or “`service not needed`” based on the machine’s state. (Pretend that the machine has other methods that keep track of toner level and page count.)
 
-EXERCISE 3.20 Challenge. Design and write an OldMacdonald class that
-sings several verses of “Old MacDonald Had a Farm.” Use methods to generalize
-the verses. For example, write a method named eieio() to “sing” the “E I E I O”
-part of the verse. Write another method with the signature hadAnX(String s),
-which sings the “had a duck” part of the verse, and a method withA(String
-sound) to sing the “with a quack quack here” part of the verse. Test your class by
-writing a main() method.
+***3.4*** Design and write an `OldMacdonald` class that sings several verses of “Old MacDonald Had a Farm.” Use methods to generalize the verses. For example, write a method named `eieio()` to “sing” the “E I E I O” part of the verse. Write another method with the signature `hadAnX(String s)`, which sings the “had a duck” part of the verse, and a method `withA(String sound)` to sing the “with a quack quack here” part of the verse. Test your class by writing a main() method.
+
 EXERCISE 3.22 Consider the definition of the class C. Define a subclass of C
 named B that overrides method m1() so that it returns the difference between m
 and n instead of their sum.
