@@ -1,10 +1,7 @@
-3.0 Write a Java application program called `TwelveDays` that prints the Christmas carol “Twelve Days of Christmas.” For this version, write a `void` method named `intro()` that takes a `single String` parameter that gives the day of the verse and prints the intro to the song. For example, `intro("first")` should print, “On the first day of Christmas my true love gave to me”. Then write methods `day1()`, `day2()`, and so on, each of which prints its version of the verse. Then write a `main()` method that calls the other methods to print the whole song.
+***3.0*** Write a Java application program called `TwelveDays` that prints the Christmas carol “Twelve Days of Christmas.” For this version, write a `void` method named `intro()` that takes a `single String` parameter that gives the day of the verse and prints the intro to the song. For example, `intro("first")` should print, “On the first day of Christmas my true love gave to me”. Then write methods `day1()`, `day2()`, and so on, each of which prints its version of the verse. Then write a `main()` method that calls the other methods to print the whole song.
 
-EXERCISE 3.16 Define a void method named permute, which takes three
-String parameters and prints out all possible arrangements of the three strings.
-For example, if you called permute("a", "b", "c"), it would produce the
-following output: abc, acb, bac, bca, cab, cba, with each permutation on a separate
-line.
+***3.1*** Define a void method named `permute`, which takes `three String` parameters and prints out all possible arrangements of the three strings. Name your class, `Permutation3`. For example, if you called `permute("a", "b", "c")`, it would produce the following output: *abc, acb, bac, bca, cab, cba*, with each permutation on a separate line.
+
 EXERCISE 3.18 Define a class named Donor that has two instance variables,
 the donor’s name and rating, both of which are Strings. The name can
 be any string, but the rating should be one of the following values: “high,”
