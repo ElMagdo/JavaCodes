@@ -6,6 +6,8 @@ public class Donor {
     private String name;
     private String rating;
 
+    public Donor() {}
+
     public Donor(String n, String r) {
         name = n;
         rating = r;
