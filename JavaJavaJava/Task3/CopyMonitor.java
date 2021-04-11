@@ -21,5 +21,11 @@ public class CopyMonitor {
         Scanner sc = new Scanner(System.in);
 
         int level, count;
+
+        System.out.println("Enter toner level: ");
+        level = sc.nextInt();
+
+        System.out.println("Enter page count: ");
+        count = sc.nextInt();
     }
 }
