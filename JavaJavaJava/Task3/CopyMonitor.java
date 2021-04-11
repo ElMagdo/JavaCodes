@@ -29,5 +29,7 @@ public class CopyMonitor {
         count = sc.nextInt();
 
         System.out.println("The Machine's state: " + monitor.checkService(level, count));
+
+        sc.close();
     }
 }
