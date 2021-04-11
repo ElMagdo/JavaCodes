@@ -8,18 +8,18 @@
 
 ***3.4*** Design and write an `OldMacdonald` class that sings several verses of “Old MacDonald Had a Farm.” Use methods to generalize the verses. For example, write a method named `eieio()` to “sing” the “E I E I O” part of the verse. Write another method with the signature `hadAnX(String s)`, which sings the “had a duck” part of the verse, and a method `withA(String sound)` to sing the “with a quack quack here” part of the verse. Test your class by writing a main() method.
 
-EXERCISE 3.22 Consider the definition of the class C. Define a subclass of C
-named B that overrides method m1() so that it returns the difference between m
-and n instead of their sum.
-
-public c l a s s C {
-p r i v a t e i n t m;
-private int n ;
-public C( i n t mIn , i n t nIn ) {
-m = mIn ;
-n = nIn ;
-}
-public i n t m1 ( ) {
-r e t u r n m+n ;
-}
-}
+***3.5*** Consider the definition of the class `C`. Define a subclass of `C` named `B` that overrides method `m1()` so that it returns the difference between `m` and `n` instead of their sum.
+
+    public class C {
+        private int m;
+        private int n;
+
+        public C(int mIn , int nIn) {
+            m = mIn;
+            n = nIn;
+        }
+        
+        public int m1() {
+            return m+n;
+        }
+    }
