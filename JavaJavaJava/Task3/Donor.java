@@ -49,7 +49,7 @@ public class Donor {
         d2.setRating(r);
 
         System.out.println("New donor's name: " + d2.getName());
-        System.out.println("New donor's rating: " + d2.getName());
+        System.out.println("New donor's rating: " + d2.getRating());
 
         sc.close();
     }
