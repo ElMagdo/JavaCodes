@@ -31,7 +31,7 @@ public class Donor {
 
     public static void main(String[] args) {
         Donor d1 = new Donor("Daniel", "high");
-        Donor d2;
+        Donor d2 = new Donor();
 
         Scanner sc = new Scanner(System.in);
 
