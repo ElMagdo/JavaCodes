@@ -28,5 +28,7 @@ public class Permutation3 {
 
         System.out.println("Enter first string: ");
         c = sc.next();
+
+        p.permute(a, b, c);
     }
 }
