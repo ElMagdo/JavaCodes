@@ -10,6 +10,10 @@ public class OldMacdonald {
     }
 
     public void withA(String snd) {
-        System.out.println("With a " + s + "here");
+        System.out.println("With a " + snd + "here");
+    }
+
+    public static void main(String[] args) {
+        OldMacdonald Mac = new OldMacdonald();
     }
 }
