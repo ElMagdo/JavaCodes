@@ -37,5 +37,8 @@ public class Donor {
 
         System.out.println("Donor's name: " + d1.getName());
         System.out.println("Donor's rating: " + d1.getRating());
+
+        System.out.println("Enter donor's name: ");
+        n = sc.next();
     }
 }
