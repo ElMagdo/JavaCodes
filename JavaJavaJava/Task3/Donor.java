@@ -8,4 +8,8 @@ public class Donor {
         name = n;
         rating = r;
     }
+
+    public void setName(String n) {
+        name = n;
+    }
 }
