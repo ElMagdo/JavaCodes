@@ -1,5 +1,7 @@
 package JavaJavaJava.Task3;
 
+import java.util.Scanner;
+
 public class Donor {
     private String name;
     private String rating;
@@ -28,5 +30,7 @@ public class Donor {
     public static void main(String[] args) {
         Donor d1 = new Donor("Daniel", "high");
         Donor d2;
+
+        Scanner sc = new Scanner(System.in);
     }
 }
