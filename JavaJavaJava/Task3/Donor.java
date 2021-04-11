@@ -34,5 +34,8 @@ public class Donor {
         Scanner sc = new Scanner(System.in);
 
         String n, r;
+
+        System.out.println("Donor's name: " + d1.getName());
+        System.out.println("Donor's rating: " + d1.getRating());
     }
 }
