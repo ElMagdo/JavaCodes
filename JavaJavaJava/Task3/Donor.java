@@ -20,4 +20,8 @@ public class Donor {
     public void setRating(String r) {
         rating = r;
     }
+
+    public String getRating() {
+        return rating;
+    }
 }
