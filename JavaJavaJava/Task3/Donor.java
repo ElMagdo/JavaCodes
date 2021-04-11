@@ -16,4 +16,8 @@ public class Donor {
     public String getName() {
         return name;
     }
+
+    public void setRating(String r) {
+        rating = r;
+    }
 }
