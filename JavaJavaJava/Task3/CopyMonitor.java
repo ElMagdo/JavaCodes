@@ -12,4 +12,8 @@ public class CopyMonitor {
         else if (hasPrinted) return "Service needed";
         else return "Service not needed";
     }
+
+    public static void main(String[] args) {
+        CopyMonitor monitor = new CopyMonitor();
+    }
 }
