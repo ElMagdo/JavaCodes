@@ -27,5 +27,7 @@ public class CopyMonitor {
 
         System.out.println("Enter page count: ");
         count = sc.nextInt();
+
+        System.out.println("The Machine's state: " + monitor.checkService(level, count));
     }
 }
