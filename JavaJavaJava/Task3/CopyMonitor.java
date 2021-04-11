@@ -19,5 +19,7 @@ public class CopyMonitor {
         CopyMonitor monitor = new CopyMonitor();
 
         Scanner sc = new Scanner(System.in);
+
+        int level, count;
     }
 }
