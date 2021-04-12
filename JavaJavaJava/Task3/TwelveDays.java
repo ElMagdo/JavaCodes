@@ -28,4 +28,8 @@ public class TwelveDays {
     public void day6() {
         System.out.println("six geese a-laying");
     }
+
+    public void day7() {
+        System.out.println("seven swans a-swimming");
+    }
 }
