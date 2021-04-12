@@ -16,4 +16,8 @@ public class TwelveDays {
     public void day3() {
         System.out.println("three french hens");
     }
+
+    public void day4() {
+        System.out.println("four collie birds");
+    }
 }
