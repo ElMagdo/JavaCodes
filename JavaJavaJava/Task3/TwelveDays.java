@@ -20,4 +20,8 @@ public class TwelveDays {
     public void day4() {
         System.out.println("four collie birds");
     }
+
+    public void day5() {
+        System.out.println("five golden rings");
+    }
 }
