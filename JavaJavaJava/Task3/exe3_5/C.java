@@ -15,5 +15,7 @@ public class C {
 
     public static void main(String[] args) {
         C c = new C(5, 2);
+
+        System.out.println("m1() for C: " + c.m1());
     }
 }
