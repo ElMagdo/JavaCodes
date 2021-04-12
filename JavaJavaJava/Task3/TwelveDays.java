@@ -2,7 +2,7 @@ package JavaJavaJava.Task3;
 
 public class TwelveDays {
     public void intro(String day) {
-        System.out.println("On the " + day + "day of Christmas my true love gave to me,");
+        System.out.println("On the " + day + " day of Christmas my true love gave to me,");
     }
 
     public void day1() {
@@ -55,5 +55,19 @@ public class TwelveDays {
 
     public static void main(String[] args) {
         TwelveDays sing = new TwelveDays();
+
+        sing.intro("twelfth");
+        sing.day12();
+        sing.day11();
+        sing.day10();
+        sing.day9();
+        sing.day8();
+        sing.day7();
+        sing.day6();
+        sing.day5();
+        sing.day4();
+        sing.day3();
+        sing.day2();
+        sing.day1();
     }
 }
