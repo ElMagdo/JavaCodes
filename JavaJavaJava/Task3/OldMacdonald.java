@@ -22,5 +22,11 @@ public class OldMacdonald {
 
     public static void main(String[] args) {
         OldMacdonald Mac = new OldMacdonald();
+
+        Mac.farm();;
+        Mac.eieio();
+        Mac.hadAnX("duck");
+        Mac.eieio();
+        Mac.withA("quack");
     }
 }
