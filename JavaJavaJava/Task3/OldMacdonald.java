@@ -34,5 +34,11 @@ public class OldMacdonald {
         Mac.hadAnX("pig");
         Mac.eieio();
         Mac.withA("oink");
+        System.out.println();
+        Mac.farm();
+        Mac.eieio();
+        Mac.hadAnX("cow");
+        Mac.eieio();
+        Mac.withA("moo");
     }
 }
