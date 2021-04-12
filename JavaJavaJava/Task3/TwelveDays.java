@@ -12,4 +12,8 @@ public class TwelveDays {
     public void day2() {
         System.out.println("two turtle doves");
     }
+
+    public void day3() {
+        System.out.println("three french hens");
+    }
 }
