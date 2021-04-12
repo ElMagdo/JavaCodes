@@ -10,7 +10,7 @@ public class OldMacdonald {
     }
 
     public void hadAnX(String s) {
-        System.out.println("Old MacDonald had a " + s);
+        System.out.println("And on his farm he had a " + s);
     }
 
     public void withA(String snd) {
