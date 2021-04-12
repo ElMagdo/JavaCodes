@@ -40,4 +40,8 @@ public class TwelveDays {
     public void day9() {
         System.out.println("nine pipers piping");
     }
+
+    public void day10() {
+        System.out.println("ten drummers drumming");
+    }
 }
