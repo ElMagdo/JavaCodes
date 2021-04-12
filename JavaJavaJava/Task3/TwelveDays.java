@@ -32,4 +32,8 @@ public class TwelveDays {
     public void day7() {
         System.out.println("seven swans a-swimming");
     }
+
+    public void day8() {
+        System.out.println("eight maids a-milking");
+    }
 }
