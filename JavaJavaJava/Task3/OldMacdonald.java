@@ -15,6 +15,7 @@ public class OldMacdonald {
 
     public void withA(String snd) {
         System.out.println("With a " + snd + " " + snd + "here.");
+        System.out.println("And a " + snd + " " + snd + "there.");
     }
 
     public static void main(String[] args) {
