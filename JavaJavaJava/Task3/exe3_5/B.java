@@ -19,5 +19,6 @@ public class B {
         B b2 = new B(5, 6);
 
         System.out.println("m1() for B: " + b.m1());
+        System.out.println("C: " + c.m1() + "  B: " + b2.m1());
     }
 }
