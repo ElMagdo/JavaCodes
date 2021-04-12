@@ -15,5 +15,7 @@ public class B {
 
     public static void main(String[] args) {
         B b = new B(5, 2);
+
+        System.out.println("m1() for B: " + b.m1());
     }
 }
