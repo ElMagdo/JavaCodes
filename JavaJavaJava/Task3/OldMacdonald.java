@@ -1,6 +1,10 @@
 package JavaJavaJava.Task3;
 
 public class OldMacdonald {
+    public void farm() {
+        System.out.println("Old MacDonald had a farm");
+    }
+
     public void eieio() {
         System.out.println("E I E I O");
     }
