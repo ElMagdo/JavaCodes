@@ -24,4 +24,8 @@ public class TwelveDays {
     public void day5() {
         System.out.println("five golden rings");
     }
+
+    public void day6() {
+        System.out.println("six geese a-laying");
+    }
 }
