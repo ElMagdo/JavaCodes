@@ -36,4 +36,8 @@ public class TwelveDays {
     public void day8() {
         System.out.println("eight maids a-milking");
     }
+
+    public void day9() {
+        System.out.println("nine pipers piping");
+    }
 }
