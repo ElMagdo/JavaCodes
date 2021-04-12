@@ -48,4 +48,8 @@ public class TwelveDays {
     public void day11() {
         System.out.println("eleven lords a-leaping");
     }
+
+    public void day12() {
+        System.out.println("twelve ladies dancing");
+    }
 }
