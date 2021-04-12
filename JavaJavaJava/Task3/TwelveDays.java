@@ -52,4 +52,8 @@ public class TwelveDays {
     public void day12() {
         System.out.println("twelve ladies dancing");
     }
+
+    public static void main(String[] args) {
+        TwelveDays sing = new TwelveDays();
+    }
 }
