@@ -1,6 +1,5 @@
-EXERCISE 4.16 Design and implement a GUI that has a JButton, a
-JTextField, and a JLabel and then uses the toString() method to display
-each object’s string representation.
+4.0 Design and implement a GUI that has a `JButton`, a `JTextField`, and a `JLabel` and then uses the `toString()` method to display each object’s string representation.
+
 EXERCISE 4.17 The JButton class inherits a setText(String s) from its
 AbstractButton() superclass. Using that method, design and implement a
 GUI that has a single button labeled initially, “The Doctor is out.” Each time the
