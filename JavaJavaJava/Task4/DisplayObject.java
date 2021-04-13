@@ -8,6 +8,7 @@ public class DisplayObject extends JFrame {
     private JLabel lbl;
 
     public DisplayObject(String t) {
+        buildGUI();
         setTitle(t);
         pack();
         setVisible(true);
