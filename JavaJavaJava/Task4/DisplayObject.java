@@ -12,4 +12,8 @@ public class DisplayObject extends JFrame {
         pack();
         setVisible(true);
     }
+
+    public void buildGUI() {
+        btn = new JButton("Am just simple");
+    }
 }
