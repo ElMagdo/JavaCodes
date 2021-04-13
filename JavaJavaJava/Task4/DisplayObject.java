@@ -1,5 +1,7 @@
 package JavaJavaJava.Task4;
 
-public class DisplayObject {
+import javax.swing.*;
+
+public class DisplayObject extends JFrame {
     
 }
