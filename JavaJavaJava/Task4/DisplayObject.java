@@ -16,5 +16,6 @@ public class DisplayObject extends JFrame {
     public void buildGUI() {
         btn = new JButton("Am just simple");
         fld = new JTextField(10);
+        lbl = new JLabel("Welcome to this Simple GUI");
     }
 }
