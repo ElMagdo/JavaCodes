@@ -21,5 +21,8 @@ public class Dimensions extends JFrame {
         big = new JButton("Big");
         small = new JButton("Small");
         btn = new JButton("Big");
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
