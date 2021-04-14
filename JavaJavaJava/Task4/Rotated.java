@@ -29,4 +29,8 @@ public class Rotated extends JFrame {
         cnt.add("Center", second);
         cnt.add("South", third);
     }
+
+    public static void main(String[] args) {
+        new Rotated("Rotated Buttons UI");
+    }
 }
