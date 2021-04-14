@@ -20,8 +20,13 @@ public class Dimensions extends JFrame implements ActionListener {
 
     public void buildGUI() {
         big = new JButton("Big");
+        big.addActionListener(this);
+
         small = new JButton("Small");
+        small.addActionListener(this);
+
         btn = new JButton("Big");
+        btn.addActionListener(this);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
