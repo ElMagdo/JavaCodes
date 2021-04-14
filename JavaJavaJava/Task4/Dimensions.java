@@ -49,4 +49,8 @@ public class Dimensions extends JFrame {
             }
         }
     }
+
+    public static void main(String[] args) {
+        new Dimensions("Dimensions UI");
+    }
 }
