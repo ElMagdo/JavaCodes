@@ -42,4 +42,8 @@ public class TwoButtons extends JFrame implements ActionListener {
             btn2.setText("Me next!");
         }
     }
+
+    public static void main(String[] args) {
+        new TwoButtons("Toggle Two Buttons UI");
+    }
 }
