@@ -17,5 +17,9 @@ public class ToggleButton extends JFrame {
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {
+        btn = new JButton("The Doctor is out");
+    }
     
 }
