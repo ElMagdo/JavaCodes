@@ -29,4 +29,24 @@ public class Dimensions extends JFrame {
         cnt.add("Center", btn);
         cnt.add("East", small);
     }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == big) {
+            setSize(300, 200);
+        }
+
+        if (e.getSource() == small) {
+            setSize(200, 100);
+        }
+
+        if (e.getSource() == btn) {
+            if (btn.getText() == "Big") {
+                setSize(300, 200);
+                btn.setText("Small");
+            } else {
+                setSize(200, 100);
+                btn.setText("Big");
+            }
+        }
+    }
 }
