@@ -27,6 +27,9 @@ public class ChangeBackground extends JFrame implements ActionListener{
 
         btn3 = new JButton("Blue");
         btn3.addActionListener(this);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 
     public void actionPerformed(ActionEvent e) {
