@@ -9,4 +9,11 @@ public class Rotated extends JFrame {
     private JButton first;
     private JButton second;
     private JButton third;
+
+    public Rotated(String t) {
+        setTitle(t);
+        setSize(200, 150);
+        setLocation(200, 150);
+        setVisible(true);
+    }
 }
