@@ -13,7 +13,7 @@ public class Dimensions extends JFrame implements ActionListener {
     public Dimensions(String t) {
         buildGUI();
         setTitle(t);
-        setSize(100, 100);
+        setSize(200, 200);
         setLocation(200, 150);
         setVisible(true);
     }
