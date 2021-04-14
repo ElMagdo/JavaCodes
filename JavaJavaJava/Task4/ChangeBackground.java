@@ -30,6 +30,9 @@ public class ChangeBackground extends JFrame implements ActionListener{
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+        cnt.add("North", btn1);
+        cnt.add("Center", btn2);
+        cnt.add("South", btn3);
     }
 
     public void actionPerformed(ActionEvent e) {
