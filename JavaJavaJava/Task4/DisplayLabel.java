@@ -39,4 +39,8 @@ public class DisplayLabel extends JFrame {
             txt.setText(right.getText());
         }
     }
+
+    public static void main(String[] args) {
+        new DisplayLabel("Display Label UI");
+    }
 }
