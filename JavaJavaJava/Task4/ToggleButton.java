@@ -33,5 +33,9 @@ public class ToggleButton extends JFrame implements ActionListener {
             btn.setText("The Doctor is out");
         }
     }
+
+    public static void main(String[] args) {
+        new ToggleButton("Toggle Button UI");
+    }
     
 }
