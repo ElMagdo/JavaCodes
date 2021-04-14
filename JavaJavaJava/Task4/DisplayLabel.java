@@ -16,4 +16,10 @@ public class DisplayLabel extends JFrame {
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {
+        left = new JButton("Left");
+        right = new JButton("Right");
+        txt = new JTextField(10);
+    }
 }
