@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TwoButtons extends JFrame {
+public class TwoButtons extends JFrame implements ActionListener {
     private static final long serialVersionUID = 1L;
     private JButton btn1;
     private JButton btn2;
