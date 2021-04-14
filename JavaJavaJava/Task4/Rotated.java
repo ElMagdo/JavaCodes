@@ -30,6 +30,26 @@ public class Rotated extends JFrame implements ActionListener {
         cnt.add("South", third);
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == first) {
+            first.setText("First");
+            second.setText("Second");
+            third.setText("Third");
+        }
+
+        if (e.getSource() == second) {
+            first.setText("Third");
+            second.setText("First");
+            third.setText("Second");
+        }
+
+        if (e.getSource() == third) {
+            first.setText("Second");
+            second.setText("Third");
+            third.setText("First");
+        }
+    }
+
     public static void main(String[] args) {
         new Rotated("Rotated Buttons UI");
     }
