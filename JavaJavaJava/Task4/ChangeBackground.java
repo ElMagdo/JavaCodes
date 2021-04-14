@@ -17,7 +17,11 @@ public class ChangeBackground extends JFrame {
         setVisible(true);
     }
 
-    public void buildGUI() {}
+    public void buildGUI() {
+        btn1 = new JButton("Red");
+        btn2 = new JButton("Green");
+        btn3 = new JButton("Blue");
+    }
 
     public static void main(String[] args) {
         new ChangeBackground("Change Background UI");
