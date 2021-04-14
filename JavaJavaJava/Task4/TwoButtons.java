@@ -23,5 +23,8 @@ public class TwoButtons extends JFrame {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+
+        cnt.add("North", btn1);
+        cnt.add("South", btn2);
     }
 }
