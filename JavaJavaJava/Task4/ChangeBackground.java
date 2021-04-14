@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class ChangeBackground extends JFrame {
+    private static final long serialVersionUID = 1L;
     private JButton btn1;
     private JButton btn2;
     private JButton btn3;
