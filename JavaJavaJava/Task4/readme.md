@@ -7,10 +7,8 @@
 
 ***4.3*** Design and implement a GUI so that it contains `three JButtons`, initially labeled “`First`,” “`Second`,” and “`Third`.” Each time the user clicks one of the buttons, the labels on the buttons should be rotated. Second should get first’s label, third should get second’s, and first should get third’s label.
 
-EXERCISE 4.20 Design and implement a GUI that contains a JTextField and
-two JButtons, initially labeled “Left” and “Right.” Each time the user clicks a
-button, display its label in the JTextField. A JButton()’s label can be gotten
-with the getText() method.
+***4.4*** Design and implement a GUI that contains a `JTextField` and `two JButtons`, initially labeled “`Left`” and “`Right`.” Each time the user clicks a button, display its label in the JTextField. A JButton()’s label can be gotten with the `getText()` method.
+
 EXERCISE 4.21 You can change the size of a JFrame by using the setSize(int
 h, int v) method, where h and v give its horizontal and vertical dimensions
 pixels. Write a GUI application that contains two JButtons, labeled “Big” and
