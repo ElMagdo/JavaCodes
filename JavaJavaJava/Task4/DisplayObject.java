@@ -11,7 +11,9 @@ public class DisplayObject extends JFrame {
     public DisplayObject(String t) {
         buildGUI();
         setTitle(t);
-        pack();
+        setSize(500, 150);
+        setLocation(200, 150);
+        //pack();
         setVisible(true);
     }
 
