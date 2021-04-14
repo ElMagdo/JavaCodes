@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Dimensions extends JFrame {
+public class Dimensions extends JFrame implements ActionListener {
     private static final long serialVersionUID = 1L;
     private JButton big;
     private JButton small;
