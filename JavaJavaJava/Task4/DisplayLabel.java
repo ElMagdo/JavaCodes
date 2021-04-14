@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class DisplayLabel extends JFrame {
+    private static final long serialVersionUID = 1L;
     private JButton left;
     private JButton right;
     private JTextField txt;
