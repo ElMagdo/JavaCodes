@@ -25,5 +25,9 @@ public class DisplayObject extends JFrame {
         cnt.add("North", lbl);
         cnt.add("Center", fld);
         cnt.add("South", btn);
+
+        System.out.println("Label: " + lbl.toString());
+        System.out.println("Text field: " + fld.toString());
+        System.out.println("Button: " + btn.toString());
     }
 }
