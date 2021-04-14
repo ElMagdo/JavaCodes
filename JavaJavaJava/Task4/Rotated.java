@@ -20,8 +20,13 @@ public class Rotated extends JFrame implements ActionListener {
 
     public void buildGUI() {
         first = new JButton("First");
+        first.addActionListener(this);
+
         second = new JButton("Second");
+        second.addActionListener(this);
+
         third = new JButton("Third");
+        third.addActionListener(this);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
