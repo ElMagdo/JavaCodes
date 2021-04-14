@@ -1,6 +1,9 @@
 package JavaJavaJava.Task4;
 
 import javax.swing.*;
+
+import jdk.internal.platform.Container;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -22,5 +25,8 @@ public class Rotated extends JFrame {
         first = new JButton("First");
         second = new JButton("Second");
         third = new JButton("Third");
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
