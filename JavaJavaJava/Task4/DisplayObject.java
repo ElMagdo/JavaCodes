@@ -30,4 +30,8 @@ public class DisplayObject extends JFrame {
         System.out.println("Text field: " + fld.toString());
         System.out.println("Button: " + btn.toString());
     }
+
+    public static void main(String[] args) {
+        new DisplayObject("My simple UI");
+    }
 }
