@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class DisplayObject extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private JButton btn;
     private JTextField fld;
     private JLabel lbl;
