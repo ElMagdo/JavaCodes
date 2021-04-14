@@ -9,4 +9,11 @@ public class DisplayLabel extends JFrame {
     private JButton left;
     private JButton right;
     private JTextField txt;
+
+    public DisplayLabel(String t) {
+        setTitle(t);
+        setSize(200, 150);
+        setLocation(200, 150);
+        setVisible(true);
+    }
 }
