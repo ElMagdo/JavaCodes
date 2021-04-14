@@ -22,6 +22,9 @@ public class ToggleButton extends JFrame implements ActionListener {
 
     public void buildGUI() {
         btn = new JButton("The Doctor is out");
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 
     public void actionPerformed(ActionEvent e) {
