@@ -21,5 +21,8 @@ public class DisplayObject extends JFrame {
         lbl = new JLabel("Welcome to this Simple GUI");
 
         Container cnt = getContentPane();
+        cnt.add("North", lbl);
+        cnt.add("Center", fld);
+        cnt.add("South", btn);
     }
 }
