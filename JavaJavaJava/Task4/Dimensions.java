@@ -17,5 +17,9 @@ public class Dimensions extends JFrame {
         setVisible(true);
     }
 
-    public void buildGUI() {}
+    public void buildGUI() {
+        big = new JButton("Big");
+        small = new JButton("Small");
+        btn = new JButton("Big");
+    }
 }
