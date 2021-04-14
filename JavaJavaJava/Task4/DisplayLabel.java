@@ -22,5 +22,8 @@ public class DisplayLabel extends JFrame {
         left = new JButton("Left");
         right = new JButton("Right");
         txt = new JTextField(10);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
