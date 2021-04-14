@@ -9,12 +9,9 @@
 
 ***4.4*** Design and implement a GUI that contains a `JTextField` and `two JButtons`, initially labeled “`Left`” and “`Right`.” Each time the user clicks a button, display its label in the JTextField. A JButton()’s label can be gotten with the `getText()` method.
 
-***4.5*** You can change the size of a JFrame by using the `setSize(int h, int v)` method, where `h` and `v` give its horizontal and vertical dimensions pixels. Write a GUI application that contains two JButtons, labeled “`Big`” and “`Small`.” Whenever the user clicks on small, set the JFrame’s dimensions to `200 × 100`, and whenever the user clicks on big, set the dimensions to `300 × 200`.
+***4.5*** You can change the size of a JFrame by using the `setSize(int h, int v)` method, where `h` and `v` give its horizontal and vertical dimensions pixels. Write a GUI application that contains two JButtons, labeled “`Big`” and “`Small`.” Whenever the user clicks on small, set the JFrame’s dimensions to `200 × 100`, and whenever the user clicks on big, set the dimensions to `300 × 200`.  
+Add a another button so that it uses a single button whose label is toggled appropriately each time it is clicked. Obviously, when the JButton is labeled “Big,” clicking it should give the JFrame its big dimensions.
 
-EXERCISE 4.22 Rewrite your solution to the previous exercise so that it uses a
-single button whose label is toggled appropriately each time it is clicked. Obvi-
-ously, when the JButton is labeled “Big,” clicking it should give the JFrame its
-big dimensions.
 EXERCISE 4.23 Challenge: Design and write a Java GUI application that allows
 the user to change the JFrame’s background color to one of three choices, indi-
 cated by buttons. Like all other Java Components, JFrame’s have an associated
