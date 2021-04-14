@@ -8,6 +8,7 @@ public class TwoButtons extends JFrame {
     private JButton btn2;
 
     public TwoButtons(String t) {
+        buildGUI();
         setTitle(t);
         setSize(200, 150);
         setLocation(200, 150);
