@@ -25,6 +25,7 @@ public class ToggleButton extends JFrame implements ActionListener {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+        cnt.add("Center", btn);
     }
 
     public void actionPerformed(ActionEvent e) {
