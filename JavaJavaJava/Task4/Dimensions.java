@@ -24,5 +24,8 @@ public class Dimensions extends JFrame {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+        cnt.add("West", big);
+        cnt.add("Center", btn);
+        cnt.add("East", small);
     }
 }
