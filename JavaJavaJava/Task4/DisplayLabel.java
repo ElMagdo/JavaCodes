@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class DisplayLabel extends JFrame {
+public class DisplayLabel extends JFrame implements ActionListener {
     private static final long serialVersionUID = 1L;
     private JButton left;
     private JButton right;
