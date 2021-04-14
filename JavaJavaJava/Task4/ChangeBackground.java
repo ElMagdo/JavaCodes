@@ -23,6 +23,20 @@ public class ChangeBackground extends JFrame {
         btn3 = new JButton("Blue");
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btn1) {
+            setBackground(Color.RED);
+        }
+
+        if (e.getSource() == btn2) {
+            setBackground(Color.GREEN);
+        }
+
+        if (e.getSource() == btn3) {
+            setBackground(Color.BLUE);
+        }
+    }
+
     public static void main(String[] args) {
         new ChangeBackground("Change Background UI");
     }
