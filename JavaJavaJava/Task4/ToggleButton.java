@@ -1,5 +1,7 @@
 package JavaJavaJava.Task4;
 
-public class ToggleButton {
+import javax.swing.*;
+
+public class ToggleButton extends JFrame {
     
 }
