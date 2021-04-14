@@ -20,5 +20,8 @@ public class TwoButtons extends JFrame {
     public void buildGUI() {
         btn1 = new JButton("Me first!");
         btn2 = new JButton("Me next!");
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
