@@ -2,7 +2,7 @@
 
 ***4.1*** The JButton class inherits a setText(String s) from its AbstractButton() superclass. Using that method, design and implement a GUI that has a `single button` labeled initially, “`The Doctor is out`.” Each time the button is clicked, it should toggle its label to, “`The Doctor is in`” and vice versa.
 
-***4.2*** Design and implement a GUI that contains `two JButtons`, initially labeled, “`Me first!`” and “`Me next!`” Each time the user clicks either button, the labels on both buttons should be exchanged.
+***4.2*** Design and implement a GUI that contains `two JButtons`, initially labeled, “`Me first!`” and “`Me next!`” Each time the user clicks either button, the labels on both buttons should be exchanged.  
 (**Hint: You don’t need an if-else statement for this problem**.)
 
 EXERCISE 4.19 Modify the GUI in the previous exercise so that it contains three
