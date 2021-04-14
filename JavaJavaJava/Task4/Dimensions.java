@@ -10,9 +10,12 @@ public class Dimensions extends JFrame {
     private JButton btn;
 
     public Dimensions(String t) {
+        buildGUI();
         setTitle(t);
         setSize(100, 100);
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {}
 }
