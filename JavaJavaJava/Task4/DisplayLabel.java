@@ -29,4 +29,14 @@ public class DisplayLabel extends JFrame {
         cnt.add("West", left);
         cnt.add("East", right);
     }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == left) {
+            txt.setText(left.getText());
+        }
+
+        if (e.getSource() == right) {
+            txt.setText(right.getText());
+        }
+    }
 }
