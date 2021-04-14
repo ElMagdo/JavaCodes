@@ -20,8 +20,13 @@ public class ChangeBackground extends JFrame implements ActionListener{
 
     public void buildGUI() {
         btn1 = new JButton("Red");
+        btn1 .addActionListener(this);
+
         btn2 = new JButton("Green");
+        btn2.addActionListener(this);
+
         btn3 = new JButton("Blue");
+        btn3.addActionListener(this);
     }
 
     public void actionPerformed(ActionEvent e) {
