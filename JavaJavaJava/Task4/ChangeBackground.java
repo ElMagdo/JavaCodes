@@ -15,4 +15,8 @@ public class ChangeBackground extends JFrame {
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public static void main(String[] args) {
+        new ChangeBackground("Change Background UI");
+    }
 }
