@@ -4,6 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class DisplayLabel {
+public class DisplayLabel extends JFrame {
     
 }
