@@ -10,11 +10,14 @@ public class ChangeBackground extends JFrame {
     private JButton btn3;
 
     public ChangeBackground(String t) {
+        buildGUI();
         setTitle(t);
         setSize(300, 300);
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {}
 
     public static void main(String[] args) {
         new ChangeBackground("Change Background UI");
