@@ -20,7 +20,10 @@ public class DisplayLabel extends JFrame implements ActionListener {
 
     public void buildGUI() {
         left = new JButton("Left");
+        left.addActionListener(this);
+
         right = new JButton("Right");
+        right.addActionListener(this);
         txt = new JTextField(10);
 
         Container cnt = getContentPane();
