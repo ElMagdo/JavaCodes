@@ -13,4 +13,9 @@ public class TwoButtons extends JFrame {
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {
+        btn1 = new JButton("Me first!");
+        btn2 = new JButton("Me next!");
+    }
 }
