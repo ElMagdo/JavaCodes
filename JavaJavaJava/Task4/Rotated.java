@@ -6,5 +6,7 @@ import java.awt.event.*;
 
 public class Rotated extends JFrame {
     private static final long serialVersionUID = 1L;
-    
+    private JButton first;
+    private JButton second;
+    private JButton third;
 }
