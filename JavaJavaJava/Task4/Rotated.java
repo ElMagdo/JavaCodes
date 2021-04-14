@@ -16,4 +16,10 @@ public class Rotated extends JFrame {
         setLocation(200, 150);
         setVisible(true);
     }
+
+    public void buildGUI() {
+        first = new JButton("First");
+        second = new JButton("Second");
+        third = new JButton("Third");
+    }
 }
