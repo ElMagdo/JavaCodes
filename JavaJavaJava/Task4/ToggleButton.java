@@ -3,7 +3,7 @@ package JavaJavaJava.Task4;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class ToggleButton extends JFrame {
+public class ToggleButton extends JFrame implements ActionListener {
 
     /**
      *
