@@ -11,6 +11,7 @@ public class DisplayLabel extends JFrame {
     private JTextField txt;
 
     public DisplayLabel(String t) {
+        buildGUI();
         setTitle(t);
         setSize(200, 150);
         setLocation(200, 150);
