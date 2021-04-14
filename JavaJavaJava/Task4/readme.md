@@ -5,10 +5,8 @@
 ***4.2*** Design and implement a GUI that contains `two JButtons`, initially labeled, “`Me first!`” and “`Me next!`” Each time the user clicks either button, the labels on both buttons should be exchanged.  
 (**Hint: You don’t need an if-else statement for this problem**.)
 
-EXERCISE 4.19 Modify the GUI in the previous exercise so that it contains three
-JButtons, initially labeled “First,” “Second,” and “Third.” Each time the user
-clicks one of the buttons, the labels on the buttons should be rotated. Second
-should get first’s label, third should get second’s, and first should get third’s label.
+***4.3*** Design and implement a GUI so that it contains `three JButtons`, initially labeled “`First`,” “`Second`,” and “`Third`.” Each time the user clicks one of the buttons, the labels on the buttons should be rotated. Second should get first’s label, third should get second’s, and first should get third’s label.
+
 EXERCISE 4.20 Design and implement a GUI that contains a JTextField and
 two JButtons, initially labeled “Left” and “Right.” Each time the user clicks a
 button, display its label in the JTextField. A JButton()’s label can be gotten
