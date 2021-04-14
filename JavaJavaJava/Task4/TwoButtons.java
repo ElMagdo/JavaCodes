@@ -19,7 +19,10 @@ public class TwoButtons extends JFrame implements ActionListener {
 
     public void buildGUI() {
         btn1 = new JButton("Me first!");
+        btn1.addActionListener(this);
+
         btn2 = new JButton("Me next!");
+        btn2.addActionListener(this);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
