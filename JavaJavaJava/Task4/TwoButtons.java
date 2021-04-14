@@ -27,4 +27,16 @@ public class TwoButtons extends JFrame implements ActionListener {
         cnt.add("North", btn1);
         cnt.add("South", btn2);
     }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btn2) {
+            btn1.setText("Me next!");
+            btn2.setText("Me first!");
+        }
+
+        if (e.getSource() == btn1) {
+            btn1.setText("Me first!");
+            btn2.setText("Me next!");
+        }
+    }
 }
