@@ -1,5 +1,7 @@
 package JavaJavaJava.Task4;
 
-public class TwoButtons {
+import javax.swing.*;
+
+public class TwoButtons extends JFrame {
     
 }
