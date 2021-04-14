@@ -25,5 +25,8 @@ public class DisplayLabel extends JFrame {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+        cnt.add("North", txt);
+        cnt.add("West", left);
+        cnt.add("East", right);
     }
 }
