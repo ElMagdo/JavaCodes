@@ -14,6 +14,7 @@ public class ChangeBackground extends JFrame implements ActionListener{
         buildGUI();
         setTitle(t);
         setSize(300, 300);
+        setBackground(Color.magenta);
         setLocation(200, 150);
         setVisible(true);
     }
@@ -28,24 +29,27 @@ public class ChangeBackground extends JFrame implements ActionListener{
         btn3 = new JButton("Blue");
         btn3.addActionListener(this);
 
+        JPanel pnl = new JPanel();
+        pnl.add(btn1);
+        pnl.add(btn2);
+        pnl.add(btn3);
+
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
-        cnt.add("North", btn1);
-        cnt.add("Center", btn2);
-        cnt.add("South", btn3);
+        cnt.add("Center", pnl);
     }
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn1) {
-            setBackground(Color.RED);
+            setBackground(Color.red);
         }
 
         if (e.getSource() == btn2) {
-            setBackground(Color.GREEN);
+            setBackground(Color.green);
         }
 
         if (e.getSource() == btn3) {
-            setBackground(Color.BLUE);
+            setBackground(Color.blue);
         }
     }
 
