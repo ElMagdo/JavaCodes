@@ -13,4 +13,11 @@ public class TemperatureGUI extends JFrame implements ActionListener {
 
     private JTextField inp;
     private JTextField out;
+
+    public TemperatureGUI(String t) {
+        setTitle(t);
+        setSize(200, 150);
+        setLocation(200, 150);
+        setVisible(true);
+    }
 }
