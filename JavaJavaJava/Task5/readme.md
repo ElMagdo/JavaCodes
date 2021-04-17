@@ -18,6 +18,8 @@ EXERCISE 5.2 Following the design for the GUI developed in Chap-
 ter 4, implement a GUI to use for testing the Temperature class. The
 GUI should have the layout shown in Figure 5.7.
 
+![temperature ui](tempui.png)
+
 EXERCISE 5.7 A Certificate of Deposit (CD) is an investment instru-
 ment that accumulates interest at a given rate for an initial principal over
 a fixed number of years. The formula for compounding interest is shown
