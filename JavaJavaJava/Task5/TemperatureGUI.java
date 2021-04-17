@@ -30,6 +30,12 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         out = new JTextField();
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == ctf) {}
+
+        if (e.getSource() == ftc) {}
+    }
+
     public static void main(String[] args) {
         new TemperatureGUI("Temperature GUI");
     }
