@@ -29,4 +29,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         inp = new JTextField();
         out = new JTextField();
     }
+
+    public static void main(String[] args) {
+        new TemperatureGUI("Temperature GUI");
+    }
 }
