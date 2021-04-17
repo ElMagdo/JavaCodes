@@ -22,5 +22,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    public void buildGUI() {}
+    public void buildGUI() {
+        cel = new JButton("C to F");
+        fah = new JButton("F to C");
+    }
 }
