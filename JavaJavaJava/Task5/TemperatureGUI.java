@@ -8,8 +8,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
 
     private static final long serialVersionUID = 1L;
 
-    private JButton cel;
-    private JButton fah;
+    private JButton ctf;
+    private JButton ftc;
 
     private JTextField inp;
     private JTextField out;
@@ -23,7 +23,7 @@ public class TemperatureGUI extends JFrame implements ActionListener {
     }
 
     public void buildGUI() {
-        cel = new JButton("C to F");
-        fah = new JButton("F to C");
+        ctf = new JButton("C to F");
+        ftc = new JButton("F to C");
     }
 }
