@@ -14,9 +14,8 @@ Temperature class:
 
 double f a h r = Temperature . c e l s T o F a h r ( 9 8 . 6 ) ;
 Applet
-EXERCISE 5.2 Following the design for the GUI developed in Chap-
-ter 4, implement a GUI to use for testing the Temperature class. The
-GUI should have the layout shown in Figure 5.7.
+
+***5.1*** Design and implement a GUI to use for testing the Temperature class. The GUI should have the layout shown in the figure below.
 
 ![temperature ui](tempui.png)
 
