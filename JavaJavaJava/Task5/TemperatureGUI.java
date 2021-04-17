@@ -7,7 +7,10 @@ import java.awt.event.*;
 public class TemperatureGUI extends JFrame implements ActionListener {
 
     private static final long serialVersionUID = 1L;
+
     private JButton cel;
     private JButton fah;
-    
+
+    private JTextField inp;
+    private JTextField out;
 }
