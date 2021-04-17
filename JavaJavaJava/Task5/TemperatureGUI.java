@@ -4,6 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TemperatureGUI {
+public class TemperatureGUI extends JFrame implements ActionListener {
     
 }
