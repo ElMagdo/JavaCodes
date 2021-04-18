@@ -44,9 +44,13 @@ public class TemperatureGUI extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == ctf) {}
+        if (e.getSource() == ctf) {
+            out.setText(celToFah(Integer.parseInt(inp.getText())));
+        }
 
-        if (e.getSource() == ftc) {}
+        if (e.getSource() == ftc) {
+            out.setText(fahToCel(Integer.parseInt(inp.getText())));
+        }
     }
 
     public static void main(String[] args) {
