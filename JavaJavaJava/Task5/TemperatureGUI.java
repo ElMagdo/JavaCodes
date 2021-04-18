@@ -52,12 +52,12 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         cnt.add("South", dwn);
     }
 
-    public String celToFah(int c) {
+    public String celToFah(double c) {
         double f = (9.0 * c / 5.0 + 32.0);
         return c + "C = " + f + "F";
     }
 
-    public String fahToCel(int f) {
+    public String fahToCel(double f) {
         double c = (5.0 * (f - 32.0) / 9.0);
         return f + "F = " + c + "C";
     }
@@ -65,13 +65,13 @@ public class TemperatureGUI extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == ctf) {
             if (inp.getText() != null) {
-                out.setText(celToFah(Integer.parseInt(inp.getText())));
+                out.setText(celToFah(Double.parseDouble(inp.getText())));
             }
         }
 
         if (e.getSource() == ftc) {
             if (inp.getText() != null) {
-                out.setText(fahToCel(Integer.parseInt(inp.getText())));
+                out.setText(fahToCel(Double.parseDouble(inp.getText())));
             }
         }
     }
