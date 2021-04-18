@@ -17,7 +17,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
     public TemperatureGUI(String t) {
         buildGUI();
         setTitle(t);
-        setSize(200, 150);
+        pack();
+        //setSize(200, 150);
         setLocation(200, 150);
         setVisible(true);
     }
@@ -35,15 +36,20 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
 
-        JPanel disp = new JPanel();
-        disp.add(new JLabel("Input Temperature >>"));
-        disp.add(inp);
-        disp.add(ctf);
-        disp.add(ftc);
-        disp.add(new JLabel("Conversion Result:"));
-        disp.add(out);
+        JPanel up = new JPanel();
+        JPanel mid = new JPanel();
+        JPanel dwn = new JPanel();
 
-        
+        up.add(new JLabel("Input Temperature >>"));
+        up.add(inp);
+        mid.add(ctf);
+        mid.add(ftc);
+        dwn.add(new JLabel("Conversion Result:"));
+        dwn.add(out);
+
+        cnt.add("North", up);
+        cnt.add("Center", mid);
+        cnt.add("South", dwn);
     }
 
     public String celToFah(int c) {
