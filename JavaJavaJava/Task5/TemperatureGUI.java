@@ -33,6 +33,11 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         out = new JTextField(15);
     }
 
+    public String celToFah(int c) {
+        double f = (9.0 * c / 5.0 + 32.0);
+        return c + "C = " + f + "F";
+    }
+
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == ctf) {}
 
