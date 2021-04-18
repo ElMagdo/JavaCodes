@@ -1,9 +1,6 @@
 package JavaJavaJava.Task5;
 
 import javax.swing.*;
-
-import jdk.internal.platform.Container;
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -37,6 +34,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+
+        JPanel disp = new JPanel();
     }
 
     public String celToFah(int c) {
