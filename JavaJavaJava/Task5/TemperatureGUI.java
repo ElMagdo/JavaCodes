@@ -29,8 +29,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         ftc = new JButton("F to C");
         ftc.addActionListener(this);
 
-        inp = new JTextField();
-        out = new JTextField();
+        inp = new JTextField(10);
+        out = new JTextField(15);
     }
 
     public void actionPerformed(ActionEvent e) {
