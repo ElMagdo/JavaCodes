@@ -1,19 +1,7 @@
-de-
-sign a program that performs temperature conversions from Fahrenheit to
-Celsius and vice versa.This problem requires two classes, a Temperature class and a
-TemperatureUI class. The Temperature class will perform the temper-
-ature conversions, and TemperatureUI will serve as the user interface
-(Fig. 5.3).EXERCISE 5.1 Following the design in Figure 5.6, implement the
-TemperatureUI class and use it to test the methods in Temperature
-class. The run() method should use an input-process-output algorithm:
-Prompt the user for input, perform the necessary processing, and output
-the result. Note that because Temperature’s conversion methods are
-class methods, you do not need to instantiate a Temperature object in
-this project. You can invoke the conversion methods directly through the
-Temperature class:
-
-double f a h r = Temperature . c e l s T o F a h r ( 9 8 . 6 ) ;
-Applet
+***5.0*** Design a program that performs temperature conversions from Fahrenheit to Celsius and vice versa. This problem requires two classes, a `Temperature class` and a `TemperatureUI class`. The Temperature class will perform the temperature conversions, and TemperatureUI will serve as the user interface. The Temperature class should contain `2 static methods`, one for each conversion. Implement the TemperatureUI class and use it to test the methods in Temperature class. Its run() method should use an **input-process-output** algorithm:  
+*Prompt the user for input, perform the necessary processing, and output the result*.  
+**Note** that because Temperature’s conversion methods are class methods, you do not need to instantiate a Temperature object in this project. You can invoke the conversion methods directly through the Temperature class:  
+`double fahr = Temperature.celsToFahr(98.6);`
 
 ***5.1*** Design and implement a GUI to use for testing the Temperature class. The GUI should have the layout shown in the figure below.
 
