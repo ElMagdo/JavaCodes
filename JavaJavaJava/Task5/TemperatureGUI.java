@@ -36,6 +36,8 @@ public class TemperatureGUI extends JFrame implements ActionListener {
         cnt.setLayout(new BorderLayout());
 
         JPanel disp = new JPanel();
+        disp.add(new JLabel("Input Temperature >>"));
+        disp.add(new JLabel("Conversion Result:"));
     }
 
     public String celToFah(int c) {
