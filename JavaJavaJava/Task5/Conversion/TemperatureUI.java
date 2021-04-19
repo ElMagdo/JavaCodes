@@ -21,6 +21,8 @@ public class TemperatureUI {
             double fah = inp.nextInt();
             double cel = Temperature.celToFah(fah);
             System.out.println(fah + "F = " + cel + "C");
+        } else {
+            System.out.println("Please enter 1 or 2!!");
         }
     }
 }
