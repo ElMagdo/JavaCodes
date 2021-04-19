@@ -24,6 +24,7 @@ public class TemperatureUI {
         } else {
             System.out.println("Please enter 1 or 2!!");
         }
+        inp.close();
     }
 
     public static void main(String[] args) {
