@@ -16,18 +16,13 @@ where `a` is the CD’s value at the end of the nth year,
 `r` is the annual interest rate,  
 `n` is the number of years or the compounding period.  
 
-EXERCISE 5.8 Design a command-line user interface to the BankCD
-class that lets the user input principal, interest rate, and years, and re-
-ports the CD’s maturity value with both yearly and daily compounding.
-Use NumberFormat objects to display percentages and dollar figures in
-an appropriate format. The program’s output should look something like
-the following (user’s inputs are in cyan):
-************************ OUTPUT ********************
-Compare daily and annual compounding for a Bank CD.
-Input CD initial principal, e.g. 1000.55 > 2500
-Input CD interest rate, e.g. 6.5 > 7.8
-Input the number of years to maturity, e.g., 10.5 > 5
-For Principal = $2,500.00 Rate= 7.8% Years= 5.0
-The maturity value compounded yearly is $3,639.43
-The maturity value compounded daily is: $3,692.30
-************************ OUTPUT ********************
+***5.3*** Design a command-line user interface to the BankCD class that lets the user input principal, interest rate, and years, and reports the CD’s maturity value with both yearly and daily compounding. Use `NumberFormat objects` to display *percentages* and *dollar* figures in an appropriate format. The program’s output should look something like the following (user’s inputs are in **bold**):  
+`************************ OUTPUT ********************`  
+`Compare daily and annual compounding for a Bank CD.`  
+`Input CD initial principal, e.g. 1000.55 >` **2500**  
+`Input CD interest rate, e.g. 6.5 >` **7.8**  
+`Input the number of years to maturity, e.g., 10.5` > **5**  
+`For Principal = $2,500.00 Rate= 7.8% Years= 5.0`  
+`The maturity value compounded yearly is $3,639.43`  
+`The maturity value compounded daily is: $3,692.30`  
+`************************ OUTPUT ********************`
