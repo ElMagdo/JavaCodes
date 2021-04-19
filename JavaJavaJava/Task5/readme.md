@@ -7,35 +7,15 @@
 
 ![temperature ui](tempui.png)
 
-EXERCISE 5.7 A Certificate of Deposit (CD) is an investment instru-
-ment that accumulates interest at a given rate for an initial principal over
-a fixed number of years. The formula for compounding interest is shown
-in Table 5.11. It assumes that interest is compounded annually. For daily
-compounding, the annual rate must be divided by 365, and the com-
-pounding period must be multiplied by 365, giving: a = p(1 + r/365) 365n .
-Implement a BankCD class that calculates the maturity value of a CD. Fig-
-ure 5.11 gives the design of the class. It should have three instance vari-
-ables for the CD’s principal, rate, and years. Its constructor method sets
-the initial values of these variables when a BankCD is instantiated. Its
-two public methods calculate the maturity value using yearly and daily
-Figure 5.11: The BankCD class.SECTION 5.7 •
-Character Data and Operators
-231
-compounding interest, respectively. Use the Math.pow() method to cal-
-culate maturity values. For example, the following expression calculates
-maturity value with annual compounding:
-
-p r i n c i p a l ∗ Math . pow( 1 + r a t e , y e a r s )
-TABLE 5.12 Formula for calculating compound interest
-a = p(1 + r) n where
-•
-•
-•
-•
-a is the CD’s value at the end of the nth year
-p is the principal or original investment amount
-r is the annual interest rate
-n is the number of years or the compounding period
+***5.2*** A Certificate of Deposit (CD) is an investment instrument that accumulates interest at a given rate for an initial principal over a fixed number of years. The formula for compounding interest is shown below. It assumes that interest is compounded annually. For daily compounding, the annual rate must be *divided by 365*, and the compounding period must be *multiplied by 365*, giving: `a = p(1 + r/365)` <sup>`365n`</sup>.  
+Implement a `BankCD class` that calculates the **maturity value** of a CD. It should have `three` instance variables for the CD’s `principal`, `rate`, and `years`. Its constructor method sets the initial values of these variables when a BankCD is instantiated. Its `two` public methods calculate the maturity value using *yearly* and *daily* compounding interest, respectively. Use the `Math.pow()` method to calculate maturity values. For example, the following expression calculates maturity value with annual compounding:  
+`principal ∗ Math.pow(1 + rate, years)`  
+Formula for calculating compound interest: `a = p(1 + r)`<sup>`n`</sup>  
+where `a` is the CD’s value at the end of the nth year,  
+`p` is the principal or original investment amount,  
+`r` is the annual interest rate,  
+`n` is the number of years or the compounding period.  
+
 EXERCISE 5.8 Design a command-line user interface to the BankCD
 class that lets the user input principal, interest rate, and years, and re-
 ports the CD’s maturity value with both yearly and daily compounding.
