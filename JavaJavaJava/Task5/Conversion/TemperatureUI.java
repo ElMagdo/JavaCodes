@@ -12,7 +12,7 @@ public class TemperatureUI {
         int choice = inp.nextInt();
 
         if (choice == 1) {
-            System.out.print("Enter temperature in Celcius: ");
+            System.out.print("Enter temperature in Celsius: ");
             double cel = inp.nextInt();
             double fah = Temperature.celToFah(cel);
             System.out.println(cel + "C = " + fah + "F");
@@ -24,5 +24,9 @@ public class TemperatureUI {
         } else {
             System.out.println("Please enter 1 or 2!!");
         }
+    }
+
+    public static void main(String[] args) {
+        run();
     }
 }
