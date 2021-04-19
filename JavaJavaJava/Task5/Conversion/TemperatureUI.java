@@ -7,5 +7,7 @@ public class TemperatureUI {
         System.out.println("Enter");
         System.out.println("1. Convert from Celcius to Fahrenheit");
         System.out.println("2. Convert from Fahrenheit to Celcius");
+
+        Scanner inp = new Scanner(System.in);
     }
 }
