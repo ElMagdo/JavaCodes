@@ -8,6 +8,9 @@ public class BankCDUI {
         Scanner inp = new Scanner(System.in);
         double p, r, n;
 
+        NumberFormat dollars = NumberFormat.getCurrencyInstance();
+        NumberFormat percent = NumberFormat.getPercentInstance();
+
         System.out.println("************************ OUTPUT ********************");
         System.out.println("Compare daily and annual compounding for a Bank CD.");
 
