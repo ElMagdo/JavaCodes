@@ -12,6 +12,10 @@ public class BankCD {
     }
 
     public double yearlyCD() {
-            return principal * Math.pow((1 + rate * 365), 365 * years);
-        }
+        return principal * Math.pow(1 + rate, years);
+    }
+
+    public double dailyCD() {
+        return principal * Math.pow((1 + rate / 365), 365 * years);
+    }
 }
