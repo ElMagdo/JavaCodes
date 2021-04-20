@@ -21,7 +21,7 @@ public class BankCDUI {
         System.out.print("Input CD interest rate, e.g. 6.5 >");
         r = inp.nextDouble();
 
-        System.out.println("Input the number of years to maturity, e.g., 10.5 >");
+        System.out.print("Input the number of years to maturity, e.g., 10.5 >");
         n = inp.nextDouble();
 
         inp.close();
