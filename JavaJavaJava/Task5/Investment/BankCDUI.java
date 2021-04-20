@@ -24,6 +24,8 @@ public class BankCDUI {
         System.out.println("Input the number of years to maturity, e.g., 10.5 >");
         n = inp.nextInt();
 
+        inp.close();
+
         BankCD bank = new BankCD(p, r, n);
         
         System.out.println("For Principal = " + dollars.format(p) + " Rate= " + percent.format(r) + " Years= " + n);
