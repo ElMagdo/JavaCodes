@@ -16,13 +16,13 @@ public class BankCDUI {
         System.out.println("Compare daily and annual compounding for a Bank CD.");
 
         System.out.print("Input CD initial principal, e.g. 1000.55 >");
-        p = inp.nextInt();
+        p = inp.nextDouble();
 
         System.out.print("Input CD interest rate, e.g. 6.5 >");
-        r = inp.nextInt();
+        r = inp.nextDouble();
 
         System.out.println("Input the number of years to maturity, e.g., 10.5 >");
-        n = inp.nextInt();
+        n = inp.nextDouble();
 
         inp.close();
 
