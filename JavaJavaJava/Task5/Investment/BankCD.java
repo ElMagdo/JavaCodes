@@ -5,9 +5,13 @@ public class BankCD {
     private double rate;
     private double years;
 
-    public BankCD(double p, double r, double y) {
+    public BankCD(double p, double r, double n) {
         principal = p;
         rate = r;
-        years = y;
+        years = n;
     }
+
+    public double yearlyCD() {
+            return principal * Math.pow((1 + rate * 365), 365 * years);
+        }
 }
