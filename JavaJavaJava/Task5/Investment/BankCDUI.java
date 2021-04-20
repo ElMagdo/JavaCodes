@@ -27,8 +27,8 @@ public class BankCDUI {
         BankCD bank = new BankCD(p, r, n);
         
         System.out.println("For Principal = " + dollars.format(p) + " Rate= " + percent.format(r) + " Years= " + n);
-        System.out.println("The maturity value compounded yearly is: " + dollars.format(p));
-        System.out.println("The maturity value compounded daily is: " + dollars.format(r));
+        System.out.println("The maturity value compounded yearly is: " + dollars.format(bank.yearlyCD()));
+        System.out.println("The maturity value compounded daily is: " + dollars.format(bank.dailyCD()));
         System.out.println("************************ OUTPUT ********************");
     }
 
