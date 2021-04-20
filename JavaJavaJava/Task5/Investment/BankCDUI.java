@@ -23,9 +23,9 @@ public class BankCDUI {
         System.out.println("Input the number of years to maturity, e.g., 10.5 >");
         n = inp.nextInt();
         
-        System.out.println("For Principal = $2,500.00 Rate= 7.8% Years= " + n);
-        System.out.println("The maturity value compounded yearly is $3,639.43");
-        System.out.println("The maturity value compounded daily is: $3,692.30");
+        System.out.println("For Principal = " + dollars.format(p) + " Rate= " + percent.format(r) + " Years= " + n);
+        System.out.println("The maturity value compounded yearly is: " + dollars.format(p));
+        System.out.println("The maturity value compounded daily is: " + dollars.format(r));
         System.out.println("************************ OUTPUT ********************");
     }
 
