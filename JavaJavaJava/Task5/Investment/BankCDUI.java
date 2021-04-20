@@ -6,6 +6,7 @@ import java.text.NumberFormat;
 public class BankCDUI {
     public static void run() {
         Scanner inp = new Scanner(System.in);
+
         double p, r, n;
 
         NumberFormat dollars = NumberFormat.getCurrencyInstance();
@@ -22,6 +23,8 @@ public class BankCDUI {
 
         System.out.println("Input the number of years to maturity, e.g., 10.5 >");
         n = inp.nextInt();
+
+        BankCD bank = new BankCD(p, r, n);
         
         System.out.println("For Principal = " + dollars.format(p) + " Rate= " + percent.format(r) + " Years= " + n);
         System.out.println("The maturity value compounded yearly is: " + dollars.format(p));
