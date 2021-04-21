@@ -7,6 +7,10 @@ public class Sequence {
             System.out.println(i);
         
         System.out.print("Using while loop: ");
+        int i = 45;
+        while (i >= -45)
+            System.out.println(i);
+        
         System.out.print("Using do-while loop: ");
     }
 }
