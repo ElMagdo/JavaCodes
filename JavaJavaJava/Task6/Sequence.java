@@ -8,9 +8,16 @@ public class Sequence {
         
         System.out.print("Using while loop: ");
         int i = 45;
-        while (i >= -45)
+        while (i >= -45) {
             System.out.println(i);
+            i -= 9;
+        }
         
         System.out.print("Using do-while loop: ");
+        i = 45;
+        do {
+            System.out.println(i);
+            i -= 9;
+        } while (i >= -45);
     }
 }
