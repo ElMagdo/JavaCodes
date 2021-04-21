@@ -1,8 +1,7 @@
 ***6.7*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print all the multiples of 10, including 0, up to and including 1,000.
 
-EXERCISE 6.8 Write three different loops—a for loop, a while loop, and a
-do-while loop—to print the following sequence of numbers: 45, 36, 27, 18, 9, 0,
-−9, −18, −27, −36, −45.
+***6.8*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following sequence of numbers: `45, 36, 27, 18, 9, 0, −9, −18, −27, −36, −45`.
+
 EXERCISE 6.9 Write three different loops—a for loop, a while loop, and a
 do-while loop—to print the following ski-jump design:
 
