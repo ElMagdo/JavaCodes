@@ -10,7 +10,7 @@ public class BankCDUI {
         double p, r, n;
 
         NumberFormat dollars = NumberFormat.getCurrencyInstance();
-        NumberFormat percent = NumberFormat.getPercentInstance();
+        //NumberFormat percent = NumberFormat.getPercentInstance();
 
         System.out.println("************************ OUTPUT ********************");
         System.out.println("Compare daily and annual compounding for a Bank CD.");
@@ -28,7 +28,7 @@ public class BankCDUI {
 
         BankCD bank = new BankCD(p, r, n);
         
-        System.out.println("For Principal = " + dollars.format(p) + " Rate = " + r + " Years = " + n);
+        System.out.println("For Principal = " + dollars.format(p) + " Rate = " + r + "% Years = " + n);
         System.out.println("The maturity value compounded yearly is: " + dollars.format(bank.yearlyCD()));
         System.out.println("The maturity value compounded daily is: " + dollars.format(bank.dailyCD()));
         System.out.println("************************ OUTPUT ********************");
