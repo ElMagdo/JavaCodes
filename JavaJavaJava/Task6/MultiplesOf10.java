@@ -11,5 +11,10 @@ public class MultiplesOf10 {
         System.out.println("Using do-while loop: ");
 
         int loop = inp.nextInt();
+
+        if (loop == 1) {
+            for (int i = 0; i <= 1000; i += 10)
+                System.out.println(i);
+        }
     }
 }
