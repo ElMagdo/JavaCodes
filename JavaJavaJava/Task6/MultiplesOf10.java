@@ -6,11 +6,12 @@ public class MultiplesOf10 {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Enter\n1. To print using for loop: ");
-        System.out.println("2. To print using while loop: ");
-        System.out.println("3. To print using do-while loop: ");
+        System.out.println("Enter\n1. To print using for loop");
+        System.out.println("2. To print using while loop");
+        System.out.println("3. To print using do-while loop");
 
         int loop = inp.nextInt();
+        inp.close();
 
         if (loop == 1) {
             for (int i = 0; i <= 1000; i += 10)
