@@ -15,6 +15,12 @@ public class MultiplesOf10 {
         if (loop == 1) {
             for (int i = 0; i <= 1000; i += 10)
                 System.out.println(i);
+        } else if (loop == 2) {
+            int i = 0;
+            while (i <= 1000) {
+                System.out.println(i);
+                i++;
+            }
         }
     }
 }
