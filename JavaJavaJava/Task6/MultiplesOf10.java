@@ -6,9 +6,9 @@ public class MultiplesOf10 {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Using for loop: ");
-        System.out.println("Using while loop: ");
-        System.out.println("Using do-while loop: ");
+        System.out.println("Enter\n1. To print using for loop: ");
+        System.out.println("2. To print using while loop: ");
+        System.out.println("3. To print using do-while loop: ");
 
         int loop = inp.nextInt();
 
@@ -27,6 +27,8 @@ public class MultiplesOf10 {
                 System.out.println(i);
                 i++;
             } while(i <= 1000);
+        } else {
+            System.out.println("You entered a wrong choice!!");
         }
     }
 }
