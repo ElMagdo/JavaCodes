@@ -21,6 +21,12 @@ public class MultiplesOf10 {
                 System.out.println(i);
                 i++;
             }
+        } else if (loop == 3) {
+            int i = 0;
+            do {
+                System.out.println(i);
+                i++;
+            } while(i <= 1000);
         }
     }
 }
