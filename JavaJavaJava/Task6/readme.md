@@ -2,31 +2,16 @@
 
 ***6.8*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following sequence of numbers: `45, 36, 27, 18, 9, 0, −9, −18, −27, −36, −45`.
 
-EXERCISE 6.9 Write three different loops—a for loop, a while loop, and a
-do-while loop—to print the following ski-jump design:
-
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-# #
-# # #
-# # # #
+***6.9*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following ski-jump design:
+
+`#`  
+`# #`  
+`# # #`  
+`# # # #`  
+`# # # # #`  
+`# # # # # #`  
+`# # # # # # #`
+
 EXERCISE 6.12 Write a method that is passed a single parameter, N, and dis-
 plays all the even numbers from 1 to N.
 EXERCISE 6.13 Write a method that is passed a single parameter, N, that prints
