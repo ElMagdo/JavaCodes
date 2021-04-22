@@ -1,8 +1,8 @@
-***6.7*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print all the multiples of 10, including 0, up to and including 1,000.
+***6.0*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print all the multiples of 10, including 0, up to and including 1,000.
 
-***6.8*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following sequence of numbers: `45, 36, 27, 18, 9, 0, −9, −18, −27, −36, −45`.
+***6.1*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following sequence of numbers: `45, 36, 27, 18, 9, 0, −9, −18, −27, −36, −45`.
 
-***6.9*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following ski-jump design:
+***6.2*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following ski-jump design:
 
 `#`  
 `# #`  
@@ -12,8 +12,8 @@
 `# # # # # #`  
 `# # # # # # #`
 
-EXERCISE 6.12 Write a method that is passed a single parameter, N, and dis-
-plays all the even numbers from 1 to N.
+***6.3*** Write a method that is passed a single parameter, `N`, and displays all the *even numbers from 1 to N*.
+
 EXERCISE 6.13 Write a method that is passed a single parameter, N, that prints
 all the odd numbers from 1 to N.
 EXERCISE 6.14 Write a method that is passed a single parameter, N, that prints
