@@ -16,5 +16,7 @@ public class OddNumbers {
         int N = inp.nextInt();
 
         inp.close();
+
+        odd(N);
     }
 }
