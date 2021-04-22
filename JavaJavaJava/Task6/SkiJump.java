@@ -20,7 +20,17 @@ public class SkiJump {
             System.out.println();
             i++;
         }
-        
+
         System.out.println("Using do-while loop");
+        i = 1;
+        do {
+            int j = 1;
+            do {
+                System.out.print('*');
+                j++;
+            } while (j <= i);
+            System.out.println();
+            i++;
+        } while (i <= 7);
     }
 }
