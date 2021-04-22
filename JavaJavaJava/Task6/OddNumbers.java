@@ -1,5 +1,7 @@
 package JavaJavaJava.Task6;
 
+import java.util.Scanner;
+
 public class OddNumbers {
     public static void odd(int n) {
         for (int i = 1; i <= n; i++)
@@ -8,6 +10,6 @@ public class OddNumbers {
     }
 
     public static void main(String[] args) {
-        
+        Scanner inp = new Scanner(System.in);
     }
 }
