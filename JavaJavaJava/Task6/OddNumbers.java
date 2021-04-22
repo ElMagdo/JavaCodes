@@ -14,5 +14,7 @@ public class OddNumbers {
 
         System.out.print("Enter a positive number to display odd numbers: ");
         int N = inp.nextInt();
+
+        inp.close();
     }
 }
