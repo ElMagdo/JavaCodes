@@ -11,5 +11,8 @@ public class EvenNumbers {
     }
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
+
+        System.out.print("Enter a positive number to display even numbers: ");
+        int N = inp.nextInt();
     }
 }
