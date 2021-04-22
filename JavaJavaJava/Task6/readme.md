@@ -14,8 +14,8 @@
 
 ***6.3*** Write a method that is passed a single parameter, `N`, and displays all the *even numbers from 1 to N*.
 
-EXERCISE 6.13 Write a method that is passed a single parameter, N, that prints
-all the odd numbers from 1 to N.
+***6.4*** Write a method that is passed a single parameter, `N`, that prints all the *odd numbers from 1 to N*.
+
 EXERCISE 6.14 Write a method that is passed a single parameter, N, that prints
 all the numbers divisible by 10 from N down to 1.
 EXERCISE 6.15 Write a method that is passed two parameters—a char Ch and
