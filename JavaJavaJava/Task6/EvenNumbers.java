@@ -1,5 +1,7 @@
 package JavaJavaJava.Task6;
 
+import java.util.Scanner;
+
 public class EvenNumbers {
 
     public static void even(int n) {
@@ -8,6 +10,6 @@ public class EvenNumbers {
                 System.out.println(i);
     }
     public static void main(String[] args) {
-        
+        Scanner inp = new Scanner(System.in);
     }
 }
