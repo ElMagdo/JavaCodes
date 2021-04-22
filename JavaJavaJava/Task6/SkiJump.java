@@ -8,8 +8,19 @@ public class SkiJump {
                 System.out.print('*');
             System.out.println();
         }
-        
+
         System.out.println("Using while loop:");
+        int i = 1;
+        while (i <= 7) {
+            int j = 1;
+            while (j <= i) {
+                System.out.print('*');
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
+        
         System.out.println("Using do-while loop");
     }
 }
