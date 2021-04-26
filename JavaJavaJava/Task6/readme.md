@@ -33,94 +33,19 @@
      8 8 16 24 32 40 48 56 64
      9 9 18 27 36 45 54 63 72 81
 
-EXERCISE 6.17 Write a method that uses nested for loops to print the patterns
-that follow. Your method should use the following statement to print the patterns:
-System.out.print(’#’).
-
-# # # #
-# # #
-# #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-# # # #
-# # #
-# #
-#
-# # # #
-#
-#
-#
-#
-#
-#
-# # # #
-# # # #
-#
-#
-#
-#
-#
-#
-# # # #
-# # # # # # # #
-#
-#
-#
-#
-#
-#
-# # # # # # # #
+***6.8*** Write a method that uses nested for loops to print the patterns that follow. Your method should use the following statement to print the patterns:  
+`System.out.print(’#’)`.
+
+    # # # # # # # #         # # # # # # # #         # # # # # # # #         # # # # # # # #
+      # # # # # # #         # # # # # # #             #         #                       #
+        # # # # # #         # # # # # #                 #     #                       #
+          # # # # #         # # # # #                     # #                       #
+            # # # #         # # # #                       # #                     #
+              # # #         # # #                       #     #                 #
+                # #         # #                       #         #             #
+                  #         #                       # # # # # # # #         # # # # # # # #
+
+
 EXERCISE 6.18 Write a program that asks the user for the number of rows and
 the number of columns in a box of asterisks. Then use nested loops to generate the
 box.294
