@@ -1,5 +1,7 @@
 package JavaJavaJava.Task6;
 
+import java.util.Scanner;
+
 public class DivisbleBy10 {
     public static void divisible(int n) {
         for (int i = n; i > 0; i--) {
@@ -9,6 +11,6 @@ public class DivisbleBy10 {
     }
 
     public static void main(String[] args) {
-        
+        Scanner in = new Scanner(System.in);
     }
 }
