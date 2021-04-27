@@ -8,7 +8,7 @@ public class MultiplicationTable {
 
     public static void table(int l) {
         for (int i = 1; i <= l; i++)
-            System.out.print(" " + i);
+            System.out.print("   " + i);
 
         System.out.println();
 
@@ -24,5 +24,7 @@ public class MultiplicationTable {
         System.out.print("Enter length of multiplication table: ");
         int N = in.nextInt();
         in.close();
+
+        table(N);
     }
 }
