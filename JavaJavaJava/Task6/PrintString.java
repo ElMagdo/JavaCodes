@@ -17,6 +17,7 @@ public class PrintString {
         int N = in.nextInt();
 
         printChar(ch, N);
+        System.out.println();
 
         in.close();
     }
