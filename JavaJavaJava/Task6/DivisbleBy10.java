@@ -15,5 +15,7 @@ public class DivisbleBy10 {
 
         System.out.print("Enter a positive number: ");
         int N = in.nextInt();
+
+        divisible(N);
     }
 }
