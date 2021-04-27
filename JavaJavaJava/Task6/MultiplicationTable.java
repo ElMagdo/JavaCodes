@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MultiplicationTable {
     public static void uptoSquare(int n) {
         for (int i = 1; i <= n; i++)
@@ -17,6 +19,7 @@ public class MultiplicationTable {
     }
 
     public static void main(String[] args) {
-        
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
