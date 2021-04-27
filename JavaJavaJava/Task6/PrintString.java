@@ -4,4 +4,8 @@ public class PrintString {
             System.out.print(c);
         }
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
