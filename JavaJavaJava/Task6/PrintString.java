@@ -9,6 +9,13 @@ public class PrintString {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter a character: ");
+        String ch = in.next();
+
+        System.out.print("Enter a positive integer: ");
+        int N = in.nextInt();
+        
         in.close();
     }
 }
