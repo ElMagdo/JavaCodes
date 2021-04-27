@@ -1,11 +1,15 @@
 public class MultiplicationTable {
-    public void uptoSquare(int n) {
+    public static void uptoSquare(int n) {
         for (int i = 1; i <= n; i++)
             System.out.print(i * n + " ");
     }
 
-    public static void table(int l, int w) {
-        for (int i = 1; i <= w; i++)
-            System.out.print("\t" + i);
+    public static void table(int l) {
+        for (int i = 1; i <= l; i++)
+            System.out.print(" " + i);
+
+        System.out.println();
+
+        
     }
 }
