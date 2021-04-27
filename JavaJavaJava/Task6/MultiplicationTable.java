@@ -10,6 +10,9 @@ public class MultiplicationTable {
 
         System.out.println();
 
-        
+        for (int i = 1; i <= l; i++) {
+            uptoSquare(i);
+            System.out.println();
+        }
     }
 }
