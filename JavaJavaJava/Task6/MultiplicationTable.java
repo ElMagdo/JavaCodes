@@ -20,6 +20,9 @@ public class MultiplicationTable {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter length of multiplication table: ");
+        int N = in.nextInt();
         in.close();
     }
 }
