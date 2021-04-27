@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PrintString {
-    public static void printChar(char c, int n) {
+    public static void printChar(String c, int n) {
         for (int i = 1; i <= n; i++) {
             System.out.print(c);
         }
@@ -15,7 +15,9 @@ public class PrintString {
 
         System.out.print("Enter a positive integer: ");
         int N = in.nextInt();
-        
+
+        printChar(ch, N);
+
         in.close();
     }
 }
