@@ -18,5 +18,7 @@ public class AsteriskBox {
         System.out.print("Enter the number of columns: ");
         int col = in.nextInt();
         in.close();
+
+        box(row, col);
     }
 }
