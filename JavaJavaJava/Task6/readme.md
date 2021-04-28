@@ -48,20 +48,14 @@
 
 ***6.9*** Write a program that asks the user for the number of rows and the number of columns in a box of asterisks. Then use nested loops to generate the box.
 
-***6.10*** Write a Java application that lets the user input a sequence of consecutive numbers. In other words, the program should let the user keep entering numbers as long as the current number is one greater than the previous number.
+***6.10*** Write a Java application that lets the user input a sequence of consecutive numbers. In other words, the program should let the user keep entering numbers as long as the current number is one smaller than the previous number.
 
 EXERCISE 6.20 Write a Java application that lets the user input a sequence of
 integers terminated by any negative value. The program should then report the
 largest and smallest values that were entered.
-EXERCISE 6.21 How many guesses does it take to guess a secret number be-
-tween 1 and N? For example, I’m thinking of a number between 1 and 100. I’ll
-tell you whether your guess is too high or too low. Obviously, an intelligent first
-guess would be 50. If that’s too low, an intelligent second guess would be 75. And
-so on. If we continue to divide the range in half, we’ll eventually get down to one
-number. Because you can divide 100 seven times (50, 25, 12, 6, 3, 1, 0), it will take
-at most seven guesses to guess a number between 1 and 100. Write a Java Swing
-program that lets the user input a positive integer, N, and then reports how many
-guesses it would take to guess a number between 1 and N.
+
+***6.12*** How many guesses does it take to guess a secret number between 1 and N? For example, I’m thinking of a number between 1 and 100. I’ll tell you whether your guess is *too high or too low*. Obviously, an intelligent first guess would be 50. If that’s too low, an intelligent second guess would be 75. And so on. If we continue to divide the range in half, we’ll eventually get down to one number. Because you can divide 100 seven times (50, 25, 12, 6, 3, 1, 0), it will take *at most seven guesses* to guess a number between 1 and 100. Write a **Java Swing program** that lets the user *input a positive integer*, N, and then *reports* how many guesses it would take to guess a number between 1 and N.
+
 EXERCISE 6.22 Suppose you determine that the fire extinguisher in your
 kitchen loses X percent of its foam every day. How long before it drops below
 a certain threshold (Y percent), at which point it is no longer serviceable? Write a
