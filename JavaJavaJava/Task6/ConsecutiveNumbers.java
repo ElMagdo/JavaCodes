@@ -7,12 +7,13 @@ public class ConsecutiveNumbers {
         System.out.println("Just keep entering a smaller number");
 
         int i = in.nextInt();
-        while(in.hasNext()) {
-            int j = in.nextInt();
+        int j = i;
 
-            if (j > i) break;
+        while(i >= j) {
+            i = j;
+            j = in.nextInt();
         }
-        
+
         in.close();
     }
 }
