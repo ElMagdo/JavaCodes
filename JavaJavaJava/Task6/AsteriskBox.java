@@ -11,6 +11,12 @@ public class AsteriskBox {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter the number of rows: ");
+        int row = in.nextInt();
+
+        System.out.print("Enter the number of columns: ");
+        int col = in.nextInt();
         in.close();
     }
 }
