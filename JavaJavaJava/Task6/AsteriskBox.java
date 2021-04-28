@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class AsteriskBox {
     public static void box(int r, int c) {
         for (int i = 1; i <= r; i++) {
@@ -8,6 +10,7 @@ public class AsteriskBox {
     }
 
     public static void main(String[] args) {
-        
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
