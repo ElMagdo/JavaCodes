@@ -46,10 +46,8 @@
                   #         #                       # # # # # # # #         # # # # # # # #
 
 
-EXERCISE 6.18 Write a program that asks the user for the number of rows and
-the number of columns in a box of asterisks. Then use nested loops to generate the
-box.294
-CHAPTER 6 • Control Structures
+***6.9*** Write a program that asks the user for the number of rows and the number of columns in a box of asterisks. Then use nested loops to generate the box.
+
 EXERCISE 6.19 Write a Java application that lets the user input a sequence of
 consecutive numbers. In other words, the program should let the user keep en-
 tering numbers as long as the current number is one greater than the previous
