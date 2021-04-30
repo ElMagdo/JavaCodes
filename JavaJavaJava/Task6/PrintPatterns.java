@@ -14,11 +14,21 @@ public class PrintPatterns {
         }
     }
 
+    public static void secondShape(int n) {
+        for (int i = 1; i <= n; i++) {
+            printRow(0, n-i, "* ");
+            printRow(0, i, "  ");
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the size of the shapes: ");
         int sz = in.nextInt();
+
+        //secondShape(sz);
 
         in.close();
     }
