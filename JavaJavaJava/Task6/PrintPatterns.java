@@ -35,6 +35,16 @@ public class PrintPatterns {
 
             System.out.println();
         }
+        
+        j = 0;
+        for (int i = (n - 2)/2; i > 0; i--) {
+            printRow(1, i, "  ");
+            System.out.print("* ");
+            printRow(1, j, "  "); j += 2;
+            System.out.print("* ");
+
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
