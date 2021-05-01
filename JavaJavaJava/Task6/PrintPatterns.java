@@ -53,6 +53,11 @@ public class PrintPatterns {
     public static void fourthShape(int n) {
         printRow(1, n, "* ");
         System.out.println();
+
+        for (int i = 1; i <= n-2; i++) {
+            printRow(1, n-i-1, "  ");
+            System.out.println('*');
+        }
     }
 
     public static void main(String[] args) {
