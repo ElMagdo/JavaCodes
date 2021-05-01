@@ -45,6 +45,9 @@ public class PrintPatterns {
 
             System.out.println();
         }
+        
+        printRow(1, n, "* ");
+        System.out.println();
     }
 
     public static void main(String[] args) {
