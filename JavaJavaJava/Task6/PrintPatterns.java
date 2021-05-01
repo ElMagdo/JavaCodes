@@ -25,6 +25,16 @@ public class PrintPatterns {
     public static void thirdShape(int n) {
         printRow(1, n, "* ");
         System.out.println();
+        
+        int j = (n - 2);
+        for (int i = 1; i <= (n - 2)/2; i++) {
+            printRow(1, i, "  ");
+            System.out.print("* ");
+            printRow(1, j - 1 - i, "  "); j--;
+            System.out.print("* ");
+
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
