@@ -58,6 +58,9 @@ public class PrintPatterns {
             printRow(1, n-i-1, "  ");
             System.out.println('*');
         }
+
+        printRow(1, n, "* ");
+        System.out.println();
     }
 
     public static void main(String[] args) {
