@@ -8,7 +8,7 @@ public class PrintPatterns {
 
     public static void firstShape(int n) {
         for (int i = 1; i <= n; i++) {
-            printRow(0, i, "  ");
+            printRow(0, i-1, "  ");
             printRow(0, n-i, "* ");
             System.out.println();
         }
@@ -76,8 +76,9 @@ public class PrintPatterns {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter the size of the shapes: ");
+        System.out.print("Enter the size of the shapes (a positive even number): ");
         int sz = in.nextInt();
+        sz = (sz % 2 == 1) ? sz-1 : sz;
 
         printShapes(sz);
 
