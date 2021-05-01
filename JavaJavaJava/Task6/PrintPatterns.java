@@ -22,13 +22,18 @@ public class PrintPatterns {
         }
     }
 
+    public static void thirdShape(int n) {
+        printRow(1, n, "* ");
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the size of the shapes: ");
         int sz = in.nextInt();
 
-        //secondShape(sz);
+        thirdShape(sz);
 
         in.close();
     }
