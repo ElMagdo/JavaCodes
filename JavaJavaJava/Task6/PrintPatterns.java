@@ -63,13 +63,23 @@ public class PrintPatterns {
         System.out.println();
     }
 
+    public static void printShapes(int n) {
+        firstShape(n);
+        System.out.println();
+        secondShape(n);
+        System.out.println();
+        thirdShape(n);
+        System.out.println();
+        fourthShape(n);
+    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the size of the shapes: ");
         int sz = in.nextInt();
 
-        fourthShape(sz);
+        printShapes(sz);
 
         in.close();
     }
