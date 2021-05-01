@@ -45,7 +45,12 @@ public class PrintPatterns {
 
             System.out.println();
         }
-        
+
+        printRow(1, n, "* ");
+        System.out.println();
+    }
+
+    public static void fourthShape(int n) {
         printRow(1, n, "* ");
         System.out.println();
     }
@@ -56,7 +61,7 @@ public class PrintPatterns {
         System.out.print("Enter the size of the shapes: ");
         int sz = in.nextInt();
 
-        thirdShape(sz);
+        fourthShape(sz);
 
         in.close();
     }
