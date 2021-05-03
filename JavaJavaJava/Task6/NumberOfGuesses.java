@@ -16,5 +16,7 @@ public class NumberOfGuesses extends JFrame {
         JTextField fld = new JTextField(10);
         JButton btn = new JButton("Check Guesses");
         JPanel pnl = new JPanel();
+        pnl.add(fld);
+        pnl.add(btn);
     }
 }
