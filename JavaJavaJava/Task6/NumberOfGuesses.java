@@ -14,5 +14,6 @@ public class NumberOfGuesses extends JFrame {
 
     public void buildUI() {
         JTextField fld = new JTextField(10);
+        JButton btn = new JButton("Check Guesses");
     }
 }
