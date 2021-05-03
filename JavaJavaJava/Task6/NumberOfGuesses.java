@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class NumberOfGuesses extends JFrame {
+    
     public NumberOfGuesses(String t) {
         buildUI();
         setTitle(t);
@@ -11,5 +12,7 @@ public class NumberOfGuesses extends JFrame {
         setVisible(true);
     }
 
-    public void buildUI() {}
+    public void buildUI() {
+        JTextField fld = new JTextField(10);
+    }
 }
