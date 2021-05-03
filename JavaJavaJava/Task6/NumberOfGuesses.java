@@ -21,5 +21,6 @@ public class NumberOfGuesses extends JFrame {
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
+        cnt.add("Center", pnl);
     }
 }
