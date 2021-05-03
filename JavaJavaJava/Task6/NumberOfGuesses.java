@@ -18,5 +18,8 @@ public class NumberOfGuesses extends JFrame {
         JPanel pnl = new JPanel();
         pnl.add(fld);
         pnl.add(btn);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
