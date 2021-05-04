@@ -17,8 +17,12 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
 
     public void buildUI() {
         fld = new JTextField(10);
+
         btn = new JButton("Check Guesses");
-        txt = new JTextArea("CLICK THE BUTTON!!");
+        btn.addActionListener(this);
+
+        txt = new JTextArea("Enter a positive number and click the button!");
+
         JPanel pnl = new JPanel();
         pnl.add(fld);
         pnl.add(btn);
@@ -34,12 +38,12 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
             int n = Integer.parseInt(fld.getText());
             int i = 0;
 
-            while (n >= 0) {
+            while (n > 0) {
                 n /= 2;
                 i++;
             }
 
-            txt.setText("it will take at most" + i + " guesses to guess a number between 1 and " + n + ".");
+            txt.setText("it will take at most " + i + " guesses to guess a number between 1 and " + n + ".");
         }
     }
 
