@@ -3,6 +3,9 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class NumberOfGuesses extends JFrame implements ActionListener {
+    private JTextField fld;
+    private JButton btn;
+    private JTextArea txt;
     
     public NumberOfGuesses(String t) {
         buildUI();
@@ -13,8 +16,9 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        JTextField fld = new JTextField(10);
-        JButton btn = new JButton("Check Guesses");
+        fld = new JTextField(10);
+        btn = new JButton("Check Guesses");
+        txt = new JTextArea();
         JPanel pnl = new JPanel();
         pnl.add(fld);
         pnl.add(btn);
@@ -27,7 +31,7 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn) {
             int n = Integer.parseInt(fld.getText());
-            int i;
+            int i = 0;
 
             while (n >= 0) {
                 n /= 2;
