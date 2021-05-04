@@ -21,7 +21,8 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
         btn = new JButton("Check Guesses");
         btn.addActionListener(this);
 
-        txt = new JTextArea("Enter a positive number and click the button!");
+        txt = new JTextArea(2, 20);
+        txt.setText("Enter a positive number and click the button!");
 
         JPanel pnl = new JPanel();
         pnl.add(fld);
