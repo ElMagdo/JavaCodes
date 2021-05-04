@@ -23,4 +23,18 @@ public class NumberOfGuesses extends JFrame {
         cnt.setLayout(new BorderLayout());
         cnt.add("Center", pnl);
     }
+
+    public void actionperformed(ActionEvent e) {
+        if (e.getSource() == btn) {
+            int n = Integer.parseInt(fld.getText());
+            int i;
+
+            while (n >= 0) {
+                n /= 2;
+                i++;
+            }
+
+            txt.setText("it will take at most" + i + " guesses to guess a number between 1 and " + n + ".");
+        }
+    }
 }
