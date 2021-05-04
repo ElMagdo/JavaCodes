@@ -1,3 +1,5 @@
+# Exercises
+
 ***6.0*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print all the multiples of 10, including 0, up to and including 1,000.
 
 ***6.1*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following sequence of numbers: `45, 36, 27, 18, 9, 0, −9, −18, −27, −36, −45`.
@@ -44,7 +46,6 @@
               # # #         # # #                       #     #                 #
                 # #         # #                       #         #             #
                   #         #                       # # # # # # # #         # # # # # # # #
-
 
 ***6.9*** Write a program that asks the user for the number of rows and the number of columns in a box of asterisks. Then use nested loops to generate the box.
 
