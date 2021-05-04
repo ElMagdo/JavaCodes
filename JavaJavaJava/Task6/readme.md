@@ -57,19 +57,10 @@
 
 ***6.13*** Suppose you determine that the fire extinguisher in your kitchen loses X percent of its foam every day. How long before it drops below a certain threshold (Y percent), at which point it is no longer serviceable? Write a Java Swing program that lets the user input the values X and Y and then reports how many weeks the fire extinguisher will last.
 
-EXERCISE 6.23 Leibnitz’s method for computing π is based on the following
-convergent series:
-π
-1
-1
-1
-= 1 − + − + ···
-4
-3
-5
-7
-How many iterations does it take to compute π to a value between 3.141 and 3.142
-using this series? Write a Java program to find out.
+***6.14*** Leibnitz’s method for computing π is based on the following convergent series:  
+`π/4 = 1 - 1/3 + 1/5 - 1/7 + ...`  
+How many iterations does it take to compute π to a value between `3.141 and 3.142` using this series? Write a Java program to find out.
+
 EXERCISE 6.24 Newton’s method for calculating the square root of N starts by
 making a (nonzero) guess at the square root. It then uses the original guess to
 calculate a new guess, according to the following formula:
