@@ -41,4 +41,8 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
             txt.setText("it will take at most" + i + " guesses to guess a number between 1 and " + n + ".");
         }
     }
+
+    public static void main(String[] args) {
+        new NumberOfGuesses("Number Of Guesses");
+    }
 }
