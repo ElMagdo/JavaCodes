@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class NumberOfGuesses extends JFrame {
+public class NumberOfGuesses extends JFrame implements ActionListener {
     
     public NumberOfGuesses(String t) {
         buildUI();
@@ -24,7 +24,7 @@ public class NumberOfGuesses extends JFrame {
         cnt.add("Center", pnl);
     }
 
-    public void actionperformed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn) {
             int n = Integer.parseInt(fld.getText());
             int i;
