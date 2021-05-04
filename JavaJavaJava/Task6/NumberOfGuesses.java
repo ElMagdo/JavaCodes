@@ -18,10 +18,11 @@ public class NumberOfGuesses extends JFrame implements ActionListener {
     public void buildUI() {
         fld = new JTextField(10);
         btn = new JButton("Check Guesses");
-        txt = new JTextArea();
+        txt = new JTextArea("CLICK THE BUTTON!!");
         JPanel pnl = new JPanel();
         pnl.add(fld);
         pnl.add(btn);
+        pnl.add(txt);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
