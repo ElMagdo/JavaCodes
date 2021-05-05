@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LeibnitzMethod {
     public static int iterations(double s, double e) {
         int it = 0, i = 1;
@@ -14,5 +16,10 @@ public class LeibnitzMethod {
             }
         }
         while(true);
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
