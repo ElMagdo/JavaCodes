@@ -5,7 +5,8 @@ public class NewtonSqrt {
         int i = 0;
 
         while (g != Math.sqrt(r)) {
-            g = ((r / g) + g) / 2;
+            g = ((r / g) + g) / 2.0;
+            //System.out.println(g + " " + Math.sqrt(r));
             i++;
         }
 
@@ -21,6 +22,9 @@ public class NewtonSqrt {
 
         System.out.print("Guess the sqrt: ");
         guess = in.nextDouble();
+
         in.close();
+
+        System.out.println("It took " + squareRoot(guess, number) + " guesses!");
     }
 }
