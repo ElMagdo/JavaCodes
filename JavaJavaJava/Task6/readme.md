@@ -61,16 +61,10 @@
 `π/4 = 1 - 1/3 + 1/5 - 1/7 + ...`  
 How many iterations does it take to compute π to a value between `3.141 and 3.142` using this series? Write a Java program to find out.
 
-EXERCISE 6.24 Newton’s method for calculating the square root of N starts by
-making a (nonzero) guess at the square root. It then uses the original guess to
-calculate a new guess, according to the following formula:
-
-guess = ( ( N / guess ) + guess ) / 2 ;
-No matter how wild the original guess is, if we repeat this calculation, the algo-
-rithm will eventually find the square root. Write a square root method based on
-this algorithm. Then write a program to determine how many guesses are required
-to find the square roots of different numbers. Uses Math.sqrt() to determine
-when to terminate the guessing.
+***6.15*** Newton’s method for calculating the square root of N starts by making a (nonzero) guess at the square root. It then uses the original guess to calculate a new guess, according to the following formula:  
+`guess = ( ( N / guess ) + guess ) / 2 ;`  
+No matter how wild the original guess is, if we repeat this calculation, the algorithm will eventually find the square root. Write a square root method based on this algorithm. Then write a program to determine how many guesses are required to find the square roots of different numbers. Uses `Math.sqrt()` to determine when to terminate the guessing.
+
 EXERCISE 6.25 Your employer is developing encryption software and wants
 you to develop a Java Swing Program that will display all of the primes less than
 N, where N is a number to be entered by the user. In addition to displaying the
