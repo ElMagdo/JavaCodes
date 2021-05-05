@@ -3,11 +3,16 @@ import java.util.Scanner;
 public class NewtonSqrt {
     public static int squareRoot(double g, double r) {
         int i = 0;
+        double j = g;
 
         while (g != Math.sqrt(r)) {
             g = ((r / g) + g) / 2.0;
             //System.out.println(g + " " + Math.sqrt(r));
             i++;
+
+            //Check for repetition of sqrt of nearest precision
+            if (g == j || g == Math.sqrt(r)) return i;
+            j = g;
         }
 
         return i;
