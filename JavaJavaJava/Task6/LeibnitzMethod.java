@@ -10,8 +10,8 @@ public class LeibnitzMethod {
             i += 2;
             it++;
 
-            if ((4*sum >= s) && (4*sum >= e)) {
-                System.out.println("sum = " + 4*sum);
+            if ((4*sum >= s) && (4*sum <= e)) {
+                //System.out.println("sum = " + 4*sum); //Prints the value of PI based on the iteration.
                 return it;
             }
         }
@@ -30,6 +30,6 @@ public class LeibnitzMethod {
 
         in.close();
 
-        System.out.println("It takes " + iterations(start, end) + "iterations to compute PI between " + start + " and " + end);
+        System.out.println("It takes " + iterations(start, end) + " iterations to compute PI between " + start + " and " + end);
     }
 }
