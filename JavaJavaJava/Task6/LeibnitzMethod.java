@@ -20,6 +20,13 @@ public class LeibnitzMethod {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        double start, end;
+
+        System.out.print("Enter the start boundary value of PI: ");
+        start = in.nextDouble();
+
+        System.out.print("Enter end(stop) boundary value of PI: ");
+        end = in.nextDouble();
         in.close();
     }
 }
