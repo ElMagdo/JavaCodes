@@ -14,6 +14,13 @@ public class NewtonSqrt {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        double guess, number;
+
+        System.out.print("Enter the number you want its sqrt: ");
+        number = in.nextDouble();
+
+        System.out.print("Guess the sqrt: ");
+        guess = in.nextDouble();
         in.close();
     }
 }
