@@ -27,6 +27,9 @@ public class LeibnitzMethod {
 
         System.out.print("Enter end(stop) boundary value of PI: ");
         end = in.nextDouble();
+
         in.close();
+
+        System.out.println("It takes " + iterations(start, end) + "iterations to compute PI between " + start + " and " + end);
     }
 }
