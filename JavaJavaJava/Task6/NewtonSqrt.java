@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class NewtonSqrt {
     public static int squareRoot(double g, double r) {
         int i = 0;
@@ -8,5 +10,10 @@ public class NewtonSqrt {
         }
 
         return i;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
