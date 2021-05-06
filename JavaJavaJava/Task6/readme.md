@@ -65,10 +65,8 @@ How many iterations does it take to compute π to a value between `3.141 and 3.1
 `guess = ( ( N / guess ) + guess ) / 2 ;`  
 No matter how wild the original guess is, if we repeat this calculation, the algorithm will eventually find the square root. Write a square root method based on this algorithm. Then write a program to determine how many guesses are required to find the square roots of different numbers. Uses `Math.sqrt()` to determine when to terminate the guessing.
 
-EXERCISE 6.25 Your employer is developing encryption software and wants
-you to develop a Java Swing Program that will display all of the primes less than
-N, where N is a number to be entered by the user. In addition to displaying the
-primes themselves, provide a count of how many there are.
+***6.16*** Your employer is developing encryption software and wants you to develop a Java Swing Program that will display all of the primes less than N, where N is a number to be entered by the user. In addition to displaying the primes themselves, provide a count of how many there are.
+
 EXERCISE 6.26 Your little sister asks you to help her with her multiplication
 and you decide to write a Java application that tests her skills. The program will
 let her input a starting number, such as 5. It will generate multiplication problems
