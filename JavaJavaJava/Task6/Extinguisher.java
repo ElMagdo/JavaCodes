@@ -11,6 +11,7 @@ public class Extinguisher extends JFrame implements ActionListener {
     public Extinguisher(String t) {
         setTitle(t);
         buildUI();
+        pack();
         setLocation(150, 200);
         setSize(200, 300);
         setVisible(true);
@@ -24,17 +25,23 @@ public class Extinguisher extends JFrame implements ActionListener {
         btn = new JButton("Percent left");
         disp = new JTextArea();
 
-        JPanel nt = new JPanel(), ct = new JPanel(), st = new JPanel();
-        nt.add(lx, tx);
-        //nt.add(tx);
-        ct.add(ly, ty);
-        st.add(btn, disp);
+        JPanel bg = new JPanel(), nt = new JPanel(), ct = new JPanel(), st = new JPanel();
+        nt.add(lx);
+        nt.add(tx);
+
+        ct.add(ly);
+        ct.add(ty);
+
+        st.add(btn);
+        st.add(disp);
+        
+        bg.add(nt);
+        bg.add(ct);
+        bg.add(st);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
-        cnt.add("North", nt);
-        cnt.add("Center", ct);
-        cnt.add("South", st);
+        cnt.add("Center", bg);
     }
 
     public static void main(String[] args) {
