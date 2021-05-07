@@ -23,5 +23,7 @@ public class Extinguisher extends JFrame implements ActionListener {
         ty = new JTextField(10);
         btn = new JButton("Percent left");
         disp = new JTextArea();
+
+        JPanel nt = new JPanel(), ct = new JPanel(), st = new JPanel();
     }
 }
