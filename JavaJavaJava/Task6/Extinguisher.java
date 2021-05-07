@@ -44,6 +44,16 @@ public class Extinguisher extends JFrame implements ActionListener {
         cnt.add("Center", bg);
     }
 
+    public int duration(double x, double y) {
+        int i = 0, mx = 100;
+        while (mx > y) {
+            mx -= x;
+            i++;
+        }
+
+        return i;
+    }
+
     public static void main(String[] args) {
         new Extinguisher("EXTINGUISHER DURATION PROGRAM");
     }
