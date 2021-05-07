@@ -13,7 +13,7 @@ public class Extinguisher extends JFrame implements ActionListener {
         buildUI();
         pack();
         setLocation(150, 200);
-        setSize(200, 300);
+        setSize(400, 300);
         setVisible(true);
     }
 
@@ -34,7 +34,7 @@ public class Extinguisher extends JFrame implements ActionListener {
 
         st.add(btn);
         st.add(disp);
-        
+
         bg.add(nt);
         bg.add(ct);
         bg.add(st);
