@@ -54,6 +54,17 @@ public class Extinguisher extends JFrame implements ActionListener {
         return i;
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btn) {
+            double x = Double.parseDouble(tx.getText());
+            double y = Double.parseDouble(ty.getText());
+            double days = duration(x, y);
+            double wks = days / 7.0;
+
+            disp.setText("Extinguisher could last for " + wks + " weeks!");
+        }
+    }
+
     public static void main(String[] args) {
         new Extinguisher("EXTINGUISHER DURATION PROGRAM");
     }
