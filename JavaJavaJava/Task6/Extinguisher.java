@@ -22,7 +22,10 @@ public class Extinguisher extends JFrame implements ActionListener {
         ly = new JLabel("Enter the THRESHOLD percent: ");
         tx = new JTextField(10);
         ty = new JTextField(10);
+        
         btn = new JButton("Percent left");
+        btn.addActionListener(this);
+
         disp = new JTextArea();
 
         JPanel bg = new JPanel(), nt = new JPanel(), ct = new JPanel(), st = new JPanel();
