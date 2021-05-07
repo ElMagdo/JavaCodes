@@ -22,8 +22,8 @@ public class Extinguisher extends JFrame implements ActionListener {
         ly = new JLabel("Enter the THRESHOLD percent: ");
         tx = new JTextField(10);
         ty = new JTextField(10);
-        
-        btn = new JButton("Percent left");
+
+        btn = new JButton("Weeks left");
         btn.addActionListener(this);
 
         disp = new JTextArea();
@@ -61,10 +61,10 @@ public class Extinguisher extends JFrame implements ActionListener {
         if (e.getSource() == btn) {
             double x = Double.parseDouble(tx.getText());
             double y = Double.parseDouble(ty.getText());
-            double days = duration(x, y);
-            double wks = days / 7.0;
+            int days = duration(x, y);
+            int wks = days / 7;
 
-            disp.setText("Extinguisher could last for " + wks + " weeks!");
+            disp.setText(wks + " weeks and " + days%7 + " days left!");
         }
     }
 
