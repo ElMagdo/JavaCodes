@@ -25,5 +25,9 @@ public class Extinguisher extends JFrame implements ActionListener {
         disp = new JTextArea();
 
         JPanel nt = new JPanel(), ct = new JPanel(), st = new JPanel();
+        nt.add(lx, tx);
+        //nt.add(tx);
+        ct.add(ly, ty);
+        st.add(btn, disp);
     }
 }
