@@ -55,7 +55,7 @@
 
 ***6.12*** How many guesses does it take to guess a secret number between 1 and N? For example, I’m thinking of a number between 1 and 100. I’ll tell you whether your guess is *too high or too low*. Obviously, an intelligent first guess would be 50. If that’s too low, an intelligent second guess would be 75. And so on. If we continue to divide the range in half, we’ll eventually get down to one number. Because you can divide 100 seven times (50, 25, 12, 6, 3, 1, 0), it will take *at most seven guesses* to guess a number between 1 and 100. Write a **Java Swing program** that lets the user *input a positive integer*, N, and then *reports* how many guesses it would take to guess a number between 1 and N.
 
-***6.13*** Suppose you determine that the fire extinguisher in your kitchen loses X percent of its foam every day. How long before it drops below a certain threshold (Y percent), at which point it is no longer serviceable? Write a Java Swing program that lets the user input the values X and Y and then reports how many weeks the fire extinguisher will last.
+***6.13*** Suppose you determine that the fire extinguisher in your kitchen loses X percent of its foam every day. How long before it drops below a certain threshold (Y percent), at which point it is no longer serviceable? Write a **Java Swing program** that lets the user input the values X and Y and then reports how many weeks the fire extinguisher will last.
 
 ***6.14*** Leibnitz’s method for computing π is based on the following convergent series:  
 `π/4 = 1 - 1/3 + 1/5 - 1/7 + ...`  
@@ -65,7 +65,7 @@ How many iterations does it take to compute π to a value between `3.141 and 3.1
 `guess = ( ( N / guess ) + guess ) / 2 ;`  
 No matter how wild the original guess is, if we repeat this calculation, the algorithm will eventually find the square root. Write a square root method based on this algorithm. Then write a program to determine how many guesses are required to find the square roots of different numbers. Uses `Math.sqrt()` to determine when to terminate the guessing.
 
-***6.16*** Your employer is developing encryption software and wants you to develop a Java Swing Program that will display all of the primes less than N, where N is a number to be entered by the user. In addition to displaying the primes themselves, provide a count of how many there are.
+***6.16*** Your employer is developing encryption software and wants you to develop a **Java Swing Program** that will display all of the primes less than N, where N is a number to be entered by the user. In addition to displaying the primes themselves, provide a count of how many there are.
 
 EXERCISE 6.26 Your little sister asks you to help her with her multiplication
 and you decide to write a Java application that tests her skills. The program will
