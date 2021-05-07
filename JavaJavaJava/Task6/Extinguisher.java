@@ -7,7 +7,7 @@ public class Extinguisher extends JFrame implements ActionListener {
     private JTextField tx, ty;
     private JButton btn;
     private JTextArea disp;
-    
+
     public Extinguisher(String t) {
         setTitle(t);
         buildUI();
@@ -17,6 +17,11 @@ public class Extinguisher extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        int i;
+        lx = new JLabel("Enter the LOSS percent: ");
+        ly = new JLabel("Enter the THRESHOLD percent: ");
+        tx = new JTextField(10);
+        ty = new JTextField(10);
+        btn = new JButton("Percent left");
+        disp = new JTextArea();
     }
 }
