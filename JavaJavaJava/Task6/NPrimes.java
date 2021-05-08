@@ -3,6 +3,11 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class NPrimes extends JFrame implements ActionListener {
+    private JLabel lbl, num;
+    private JTextField inp;
+    private JButton btn;
+    private JTextArea disp;
+
     public NPrimes(String t) {
         buildUI();
         setTitle(t);
@@ -12,6 +17,6 @@ public class NPrimes extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        int i;
+        
     }
 }
