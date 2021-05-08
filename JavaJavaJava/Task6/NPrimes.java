@@ -17,6 +17,10 @@ public class NPrimes extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        
+        lbl = new JLabel("Enter a number greater than zero(n > 0):");
+        inp = new JTextField(10);
+        btn = new JButton("Check Primes");
+        num = new JLabel("No primes yet!");
+        disp = new JTextArea();
     }
 }
