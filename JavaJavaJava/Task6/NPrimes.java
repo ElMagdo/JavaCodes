@@ -37,6 +37,12 @@ public class NPrimes extends JFrame implements ActionListener {
         cnt.add("Center", ct);
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btn) {
+            int i;
+        }
+    }
+
     public static void main(String[] args) {
         new NPrimes("Check NUmber Of Primes");
     }
