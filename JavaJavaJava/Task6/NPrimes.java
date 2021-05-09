@@ -37,6 +37,13 @@ public class NPrimes extends JFrame implements ActionListener {
         cnt.add("Center", ct);
     }
 
+    public boolean isPrime(int n) {
+        for (int i = 2; i <= Math.sqrt(n); i++)
+            if (i%n == 0) return false;
+
+        return true;
+    }
+
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn) {
             int i;
