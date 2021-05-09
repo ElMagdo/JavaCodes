@@ -19,7 +19,10 @@ public class NPrimes extends JFrame implements ActionListener {
     public void buildUI() {
         lbl = new JLabel("Enter a number greater than zero(n > 0):");
         inp = new JTextField(10);
+        
         btn = new JButton("Check Primes");
+        btn.addActionListener(this);
+
         num = new JLabel("No primes yet!");
         disp = new JTextArea();
 
@@ -46,11 +49,25 @@ public class NPrimes extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn) {
-            int i;
+            int n = Integer.parseInt(inp.getText()), p = 0;
+
+            for (int i = 2; i <= n; i++) {
+                if (isPrime(i)) {
+                    p++;
+                    if (p%10 != 0) {
+                        disp.append(i + " ");
+                    } else {
+                        disp.append("\n" + i);
+                    }
+                }
+            }
+
+            num.setText("There are " + p + " Primes!");
+            disp.setSize(10, p%10);
         }
     }
 
     public static void main(String[] args) {
-        new NPrimes("Check NUmber Of Primes");
+        new NPrimes("Check Number Of Primes");
     }
 }
