@@ -24,5 +24,9 @@ public class NPrimes extends JFrame implements ActionListener {
         disp = new JTextArea();
 
         JPanel nt = new JPanel(), st = new JPanel();
+        nt.add(lbl);
+        nt.add(inp);
+        st.add(btn);
+        st.add(num);
     }
 }
