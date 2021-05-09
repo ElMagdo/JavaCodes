@@ -22,5 +22,7 @@ public class NPrimes extends JFrame implements ActionListener {
         btn = new JButton("Check Primes");
         num = new JLabel("No primes yet!");
         disp = new JTextArea();
+
+        JPanel nt = new JPanel(), st = new JPanel();
     }
 }
