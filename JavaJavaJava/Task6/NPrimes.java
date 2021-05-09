@@ -35,4 +35,8 @@ public class NPrimes extends JFrame implements ActionListener {
         cnt.add("Center", st);
         cnt.add("South", disp);
     }
+
+    public static void main(String[] args) {
+        new NPrimes("Check NUmber Of Primes");
+    }
 }
