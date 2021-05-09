@@ -28,5 +28,8 @@ public class NPrimes extends JFrame implements ActionListener {
         nt.add(inp);
         st.add(btn);
         st.add(num);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
     }
 }
