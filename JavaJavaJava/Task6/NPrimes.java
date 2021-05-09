@@ -23,17 +23,18 @@ public class NPrimes extends JFrame implements ActionListener {
         num = new JLabel("No primes yet!");
         disp = new JTextArea();
 
-        JPanel nt = new JPanel(), st = new JPanel();
+        JPanel nt = new JPanel(), ct = new JPanel(), st = new JPanel();
         nt.add(lbl);
         nt.add(inp);
         st.add(btn);
         st.add(num);
+        ct.add(nt);
+        ct.add(st);
+        ct.add(disp);
 
         Container cnt = getContentPane();
         cnt.setLayout(new BorderLayout());
-        cnt.add("North", nt);
-        cnt.add("Center", st);
-        cnt.add("South", disp);
+        cnt.add("Center", ct);
     }
 
     public static void main(String[] args) {
