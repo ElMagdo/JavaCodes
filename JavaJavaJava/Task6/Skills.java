@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Skills {
     public void displayTitle() {
         System.out.println("*******************************");
@@ -21,5 +23,10 @@ public class Skills {
                ans = 1;
            }
        }
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
