@@ -23,10 +23,15 @@ public class Skills {
                ans = 1;
            }
        }
+
+       System.out.println("#######--- Thank you for taking the Test. Bye!! --######");
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter the number to take test on: ");
+        int n = in.nextInt();
         in.close();
     }
 }
