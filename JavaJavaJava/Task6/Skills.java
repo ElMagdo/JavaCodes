@@ -6,4 +6,20 @@ public class Skills {
         System.out.println("*                             *");
         System.out.println("*******************************");
     }
+
+    public static void playTest(int n) {
+       for (int i = 1; i <= 12; i++) {
+           System.out.print(n + " x " + i + " = ");
+           int ans = 0;
+
+           if (ans == n*i) {
+               System.out.println("Correct answer!! Great job.");
+           }
+
+           while (ans != n*i) {
+               System.out.println("Wrong answer! Try again.");
+               ans = 1;
+           }
+       }
+    }
 }
