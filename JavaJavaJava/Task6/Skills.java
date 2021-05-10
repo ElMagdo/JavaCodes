@@ -11,6 +11,7 @@ public class Skills {
 
     public static void playTest(int n) {
         displayTitle();
+        Scanner in = new Scanner(System.in);
 
        for (int i = 1; i <= 12; i++) {
            System.out.print(n + " x " + i + " = ");
@@ -25,6 +26,7 @@ public class Skills {
                ans = 1;
            }
        }
+       in.close();
 
        System.out.println("#######--- Thank you for taking the Test. Bye!! --######");
     }
