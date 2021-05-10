@@ -11,7 +11,7 @@ public class Skills {
 
     public static void playTest(int n) {
         displayTitle();
-        
+
        for (int i = 1; i <= 12; i++) {
            System.out.print(n + " x " + i + " = ");
            int ans = 0;
@@ -35,5 +35,7 @@ public class Skills {
         System.out.print("Enter the number to take test on: ");
         int n = in.nextInt();
         in.close();
+
+        playTest(n);
     }
 }
