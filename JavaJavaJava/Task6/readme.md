@@ -84,10 +84,9 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
     ∗∗ ∗∗ ∗∗ ∗∗
     ∗∗ ∗∗ ∗∗ ∗∗
 
-EXERCISE 6.29 The Fibonacci sequence (named after the Italian mathematician
-Leonardo of Pisa, ca. 1200) consists of the numbers 0, 1, 1, 2, 3, 5, 8, 13, . . . in which
-each number (except for the first two) is the sum of the two preceding numbers.
-Write a method fibonacci(N) that prints the first N Fibonacci numbers.
+***6.10*** The *Fibonacci sequence* (named after the Italian mathematician Leonardo of Pisa, ca. 1200) consists of the numbers 0, 1, 1, 2, 3, 5, 8, 13, . . . in which each number (except for the first two) is the sum of the two preceding numbers.  
+Write a method `fibonacci(N)` that prints the first N Fibonacci numbers.
+
 EXERCISE 6.30 The Nuclear Regulatory Agency wants you to write a program
 that will help determine how long certain radioactive substances will take to de-
 cay. The program should let the user input two values: a string giving the sub-
