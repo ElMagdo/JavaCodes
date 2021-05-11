@@ -69,14 +69,14 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
 
 ***6.17*** Your little sister asks you to help her with her multiplication and you decide to write a Java application that tests her skills. The program will let her input a starting number, such as 5. It will generate multiplication problems ranging from from `5 × 1` to `5 × 12`. For each problem she will be prompted to enter the correct answer. The program should check her answer and should not let her advance to the next question until the correct answer is given to the current question.
 
-EXERCISE 6.27 Write an application that prompts the user for four values and
-draws corresponding bar graphs using an ASCII character. For example, if the
-user entered 15, 12, 9, and 4, the program would draw
-
-∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
-∗∗∗∗∗∗∗∗∗∗∗∗
-∗∗∗∗∗∗∗∗∗
-∗∗∗∗
+***6.8*** Write an application that prompts the user for *four values* and draws corresponding bar graphs using an ASCII character. For example, if the user entered 15, 12, 9, and 4, the program would draw
+
+    ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
+    ∗∗∗∗∗∗∗∗∗∗∗∗
+    ∗∗∗∗∗∗∗∗∗
+    ∗∗∗∗
+
+
 EXERCISE 6.28 Revise the application in the previous problem so that the bar
 charts are displayed vertically. For example, if the user inputs 5, 2, 3, and 4, the
 program should display
