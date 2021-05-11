@@ -76,19 +76,14 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
     ∗∗∗∗∗∗∗∗∗
     ∗∗∗∗
 
+***6.9*** Revise the application in the previous problem so that the bar charts are displayed vertically. For example, if the user inputs 5, 2, 3, and 4, the program should display
 
-EXERCISE 6.28 Revise the application in the previous problem so that the bar
-charts are displayed vertically. For example, if the user inputs 5, 2, 3, and 4, the
-program should display
-
-∗∗
-∗∗
-∗∗
-∗∗
-∗∗ ∗∗
-∗∗ ∗∗ ∗∗ ∗∗
-∗∗ ∗∗ ∗∗ ∗∗
-−−−−−−−−−−−−−
+    ∗∗
+    ∗∗       **
+    ∗∗ ∗∗ ** **
+    ∗∗ ∗∗ ∗∗ ∗∗
+    ∗∗ ∗∗ ∗∗ ∗∗
+
 EXERCISE 6.29 The Fibonacci sequence (named after the Italian mathematician
 Leonardo of Pisa, ca. 1200) consists of the numbers 0, 1, 1, 2, 3, 5, 8, 13, . . . in which
 each number (except for the first two) is the sum of the two preceding numbers.
