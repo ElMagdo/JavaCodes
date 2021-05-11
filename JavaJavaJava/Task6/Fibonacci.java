@@ -26,5 +26,7 @@ public class Fibonacci {
         System.out.print("Enter a positive number to generate Fibonacci series: ");
         int n = in.nextInt();
         in.close();
+
+        fibonacci(n);
     }
 }
