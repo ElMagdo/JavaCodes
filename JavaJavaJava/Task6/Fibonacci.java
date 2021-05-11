@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Fibonacci {
     public static void fibonacci(int n) {
         int n0 = 0, n1 = 1, fn = 0;
@@ -8,5 +10,10 @@ public class Fibonacci {
             n0 = n1;
             n1 = fn;
         }
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
