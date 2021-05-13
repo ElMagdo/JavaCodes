@@ -71,7 +71,7 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
 
 ***6.8*** Write an application that prompts the user for *four values* and draws corresponding bar graphs using an ASCII character. For example, if the user entered 15, 12, 9, and 4, the program would draw
 
-    ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
+    ∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗
     ∗∗∗∗∗∗∗∗∗∗∗∗
     ∗∗∗∗∗∗∗∗∗
     ∗∗∗∗
