@@ -87,13 +87,8 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
 ***6.10*** The *Fibonacci sequence* (named after the Italian mathematician Leonardo of Pisa, ca. 1200) consists of the numbers 0, 1, 1, 2, 3, 5, 8, 13, . . . in which each number (except for the first two) is the sum of the two preceding numbers.  
 Write a method `fibonacci(N)` that prints the first N Fibonacci numbers.
 
-EXERCISE 6.30 The Nuclear Regulatory Agency wants you to write a program
-that will help determine how long certain radioactive substances will take to de-
-cay. The program should let the user input two values: a string giving the sub-
-stance’s name and its half-life in years. (A substance’s half-life is the number of
-years required for the disintegration of half of its atoms.) The program should re-
-port how many years it will take before there is less than 2 percent of the original
-number of atoms remaining.
+***6.11*** The Nuclear Regulatory Agency wants you to write a program that will help determine how long certain radioactive substances will take to decay. The program should let the user input two values: a `string` giving the substance’s name and its half-life in years. (A substance’s half-life is the number of years required for the disintegration of half of its atoms.) The program should report how many years it will take before there is less than `2 percent` of the original number of atoms remaining.
+
 EXERCISE 6.31 Modify the CarLoan program so that it calculates a user’s car
 payments for loans of different interest rates and different loan periods. Let the
 user input the amount of the loan. Have the program output a table of monthly
