@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HorizontalBars {
     public static void printBar(int n) {
         for (int i = 1; i <= n; i++) {
@@ -11,5 +13,10 @@ public class HorizontalBars {
         printBar(b);
         printBar(c);
         printBar(d);
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
