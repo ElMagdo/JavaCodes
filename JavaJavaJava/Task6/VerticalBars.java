@@ -10,6 +10,12 @@ public class VerticalBars {
             if (i <= b) System.out.print(ch);
             else System.out.print(sp);
 
+            if (i <= c) System.out.print(ch);
+            else System.out.print(sp);
+
+            if (i <= d) System.out.print(ch);
+            else System.out.print(sp);
+
             System.out.println();
         }
     }
