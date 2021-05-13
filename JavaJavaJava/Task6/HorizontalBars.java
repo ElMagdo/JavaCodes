@@ -5,8 +5,11 @@ public class HorizontalBars {
         }
         System.out.println();
     }
-    
+
     public static void bargraph(int a, int b, int c, int d) {
-        int i;
+        printBar(a);
+        printBar(b);
+        printBar(c);
+        printBar(d);
     }
 }
