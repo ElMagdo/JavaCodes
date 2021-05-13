@@ -24,6 +24,14 @@ public class VerticalBars {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        int a, b, c, d;
+
+        System.out.print("Enter the 4 values of the Bar chart: ");
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextInt();
+        d = in.nextInt();
+        
         in.close();
     }
 }
