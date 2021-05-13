@@ -31,7 +31,9 @@ public class VerticalBars {
         b = in.nextInt();
         c = in.nextInt();
         d = in.nextInt();
-        
+
         in.close();
+
+        displayBar(a, b, c, d);
     }
 }
