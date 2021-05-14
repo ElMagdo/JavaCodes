@@ -6,13 +6,13 @@
 
 ***6.2*** Write three different loops — a `for` loop, a `while` loop, and a `do-while` loop — to print the following ski-jump design:
 
-`#`  
-`# #`  
-`# # #`  
-`# # # #`  
-`# # # # #`  
-`# # # # # #`  
-`# # # # # # #`
+    #
+    # #
+    # # #
+    # # # #
+    # # # # #
+    # # # # # #
+    # # # # # # #
 
 ***6.3*** Write a method that is passed a single parameter, `N`, and displays all the *even numbers from 1 to N*.
 
@@ -88,8 +88,3 @@ No matter how wild the original guess is, if we repeat this calculation, the alg
 Write a method `fibonacci(N)` that prints the first N Fibonacci numbers.
 
 ***6.11*** The Nuclear Regulatory Agency wants you to write a program that will help determine how long certain radioactive substances will take to decay. The program should let the user input two values: a `string` giving the substance’s name and its half-life in years. (A substance’s half-life is the number of years required for the disintegration of half of its atoms.) The program should report how many years it will take before there is less than `2 percent` of the original number of atoms remaining.
-
-EXERCISE 6.31 Modify the CarLoan program so that it calculates a user’s car
-payments for loans of different interest rates and different loan periods. Let the
-user input the amount of the loan. Have the program output a table of monthly
-payment schedules.
