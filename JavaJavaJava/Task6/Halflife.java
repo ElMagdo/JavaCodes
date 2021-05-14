@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Halflife {
-    public static int decay(double y) {
-        int v = 100, j = 100, i = 0;
+    public static double decay(double y) {
+        int v = 100, j = 100;
+        double i = 0;
 
         while (j > 0.02*v) {
             i += y;
@@ -23,5 +24,7 @@ public class Halflife {
         System.out.print("Enter the half-life of the substance: ");
         years = in.nextDouble();
         in.close();
+
+        System.out.println(name + " takes " + decay(years) + " years to go less than 2 percent of its original value.");
     }
 }
