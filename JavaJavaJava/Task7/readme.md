@@ -1,3 +1,5 @@
+# EXERCISES
+
 ***7.0*** Write a method that converts its String parameter so that letters are written in blocks five characters long. For example, consider the following two versions of the same sentence:
         Plain: This is how we would ordinarily write a sentence.
         Blocked: Thisi showw ewoul dordi naril ywrit easen tence.
