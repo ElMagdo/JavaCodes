@@ -22,6 +22,15 @@ public class Blocked {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        String txt;
+        int n;
+
+        System.out.print("Enter the text: ");
+        txt = in.nextLine();
+
+        System.out.print("Enter the size of each block: ");
+        n = in.nextInt();
+        
         in.close();
     }
 }
