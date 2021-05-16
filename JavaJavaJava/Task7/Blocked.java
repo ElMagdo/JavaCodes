@@ -1,4 +1,5 @@
 import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Blocked {
     public static void block(int n, String str) {
@@ -17,5 +18,10 @@ public class Blocked {
         }
 
         System.out.println(sb);
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        in.close();
     }
 }
