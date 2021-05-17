@@ -20,4 +20,8 @@ public class Document extends JFrame implements ActionListener {
         numChars = new JLabel("Number of characters: ");
         sixMore = new JLabel("Percentage of words that have more than six letters");
     }
+
+    public static void main(String[] args) {
+        new Document("DOCUMENT ANALYSIS UI");
+    }
 }
