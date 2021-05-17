@@ -15,6 +15,9 @@ public class Document extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        int i;
+        hdx = new JLabel("Enter some text in the box:");
+        numWords = new JLabel("Number of words: ");
+        numChars = new JLabel("Number of characters: ");
+        sixMore = new JLabel("Percentage of words that have more than six letters");
     }
 }
