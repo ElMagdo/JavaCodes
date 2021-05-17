@@ -4,10 +4,8 @@
 >Plain: This is how we would ordinarily write a sentence.  
 Blocked: Thisi showw ewoul dordi naril ywrit easen tence.  
 
-EXERCISE 7.10 Design and implement a Java Swing program that lets the user
-type a document into a TextArea and then provides the following analysis of the
-document: the number of words in the document, the number of characters in the
-document, and the percentage of words that have more than six letters.
+***7.1*** Design and implement a *Java Swing program* that lets the user type a document into a TextArea and then provides the following analysis of the document: the number of words in the document, the number of characters in the document, and the percentage of words that have more than six letters.
+
 EXERCISE 7.11 Design and write a Java Swing program that searches for single-
 digit numbers in a text and changes them to their corresponding words. For ex-
 ample, the string “4 score and 7 years ago” would be converted into “four score
