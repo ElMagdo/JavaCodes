@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.StringTokenizer;
 
 public class Document extends JFrame implements ActionListener {
     private JTextArea doc;
@@ -15,10 +16,15 @@ public class Document extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        hdx = new JLabel("Enter some text in the box:");
+        hdx = new JLabel("Enter some text in the box: ");
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
-        sixMore = new JLabel("Percentage of words that have more than six letters");
+        sixMore = new JLabel("Percentage of words that have more than six letters: ");
+    }
+
+    public int wordsCount(String str) {
+        StringTokenizer tk = new StringTokenizer(str);
+        return tk.countTokens();
     }
 
     public static void main(String[] args) {
