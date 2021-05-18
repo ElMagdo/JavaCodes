@@ -27,6 +27,17 @@ public class Document extends JFrame implements ActionListener {
         return tk.countTokens();
     }
 
+    public double perSix(String str) {
+        StringTokenizer tk = new StringTokenizer(str);
+        int i = 0;
+
+        while (tk.hasMoreTokens()) {
+            if (tk.nextToken().length() >= 6) i++;
+        }
+
+        return (i / tk.countTokens()) * 100.0;
+    }
+
     public static void main(String[] args) {
         new Document("DOCUMENT ANALYSIS UI");
     }
