@@ -17,6 +17,7 @@ public class Document extends JFrame implements ActionListener {
 
     public void buildUI() {
         hdx = new JLabel("Enter some text in the box: ");
+        doc = new JTextArea();
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
         sixMore = new JLabel("Percentage of words that have more than six letters: ");
@@ -36,6 +37,12 @@ public class Document extends JFrame implements ActionListener {
         }
 
         return (i / tk.countTokens()) * 100.0;
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == doc) {
+            int i;
+        }
     }
 
     public static void main(String[] args) {
