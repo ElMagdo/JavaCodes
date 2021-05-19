@@ -31,6 +31,10 @@ public class Document extends JFrame implements ActionListener {
         ct.add(numWords);
         ct.add(numChars);
         ct.add(sixMore);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
+        cnt.add("Center", ct);
     }
 
     public int wordsCount(String str) {
