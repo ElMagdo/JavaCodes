@@ -24,6 +24,13 @@ public class Document extends JFrame implements ActionListener {
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
         sixMore = new JLabel("Percentage of words that have more than six letters: ");
+
+        JPanel ct = new JPanel();
+        ct.add(hdx);
+        ct.add(doc);
+        ct.add(numWords);
+        ct.add(numChars);
+        ct.add(sixMore);
     }
 
     public int wordsCount(String str) {
