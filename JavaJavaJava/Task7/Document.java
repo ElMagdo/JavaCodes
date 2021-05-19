@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 public class Document extends JFrame implements ActionListener {
     private JTextArea doc;
     private JLabel hdx, numWords, numChars, sixMore;
+    private JButton chk;
 
     public Document(String t) {
         buildUI();
@@ -18,16 +19,18 @@ public class Document extends JFrame implements ActionListener {
     public void buildUI() {
         hdx = new JLabel("Enter some text in the box: ");
 
-        doc = new JTextArea();
-        doc.addKeyListener((KeyListener) this);
+        doc = new JTextArea(5, 25);
+
+        chk = new JButton("Get Analysis");
 
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
-        sixMore = new JLabel("Percentage of words that have more than six letters: ");
+        sixMore = new JLabel("% of six letter words: ");
 
         JPanel ct = new JPanel();
         ct.add(hdx);
         ct.add(doc);
+        ct.add(chk);
         ct.add(numWords);
         ct.add(numChars);
         ct.add(sixMore);
@@ -57,7 +60,7 @@ public class Document extends JFrame implements ActionListener {
         if (e.getSource() == doc) {
             numWords.setText("Number of words: " + wordsCount(doc.getText()));
             numChars.setText("Number of characters: " + doc.getText().length());
-            sixMore.setText("Percentage of words that have more than six letters: " + perSix(doc.getText()) + "%");
+            sixMore.setText("% of six letter words: " + perSix(doc.getText()) + "%");
         }
     }
 
