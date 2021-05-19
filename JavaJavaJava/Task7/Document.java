@@ -22,6 +22,7 @@ public class Document extends JFrame implements ActionListener {
         doc = new JTextArea(5, 25);
 
         chk = new JButton("Get Analysis");
+        chk.addActionListener(this);
 
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
@@ -57,7 +58,7 @@ public class Document extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == doc) {
+        if (e.getSource() == chk) {
             numWords.setText("Number of words: " + wordsCount(doc.getText()));
             numChars.setText("Number of characters: " + doc.getText().length());
             sixMore.setText("% of six letter words: " + perSix(doc.getText()) + "%");
