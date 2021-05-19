@@ -20,7 +20,7 @@ public class Document extends JFrame implements ActionListener {
 
         doc = new JTextArea();
         doc.addKeyListener((KeyListener) this);
-        
+
         numWords = new JLabel("Number of words: ");
         numChars = new JLabel("Number of characters: ");
         sixMore = new JLabel("Percentage of words that have more than six letters: ");
@@ -44,7 +44,9 @@ public class Document extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == doc) {
-            int i;
+            numWords.setText("Number of words: " + wordsCount(doc.getText()));
+            numChars.setText("Number of characters: " + doc.getText().length());
+            sixMore.setText("Percentage of words that have more than six letters: " + perSix(doc.getText()) + "%");
         }
     }
 
