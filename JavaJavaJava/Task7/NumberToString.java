@@ -18,4 +18,8 @@ public class NumberToString extends JFrame implements ActionListener {
     public void buildUI() {
         int i;
     }
+
+    public static void main(String[] args) {
+        new NumberToString("Number To String Conversion");
+    }
 }
