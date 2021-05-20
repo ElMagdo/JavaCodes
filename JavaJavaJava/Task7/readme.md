@@ -6,11 +6,8 @@ Blocked: Thisi showw ewoul dordi naril ywrit easen tence.
 
 ***7.1*** Design and implement a *Java Swing program* that lets the user type a document into a TextArea and then provides the following analysis of the document: the number of words in the document, the number of characters in the document, and the percentage of words that have more than six letters.
 
-EXERCISE 7.11 Design and write a Java Swing program that searches for single-
-digit numbers in a text and changes them to their corresponding words. For ex-
-ample, the string “4 score and 7 years ago” would be converted into “four score
-and seven years ago”.334
-CHAPTER 7 • Strings and String Processing
+***7.2*** Design and write a Java Swing program that searches for single-digit numbers in a text and changes them to their corresponding words. For example, the string `“4 score and 7 years ago”` would be converted into `“four score and seven years ago”`.
+
 EXERCISE 7.12 A palindrome is a string that is spelled the same way backward
 and forward. For example, mom, dad, radar, 727 and able was i ere i saw elba are all
 examples of palindromes. Write a Java Swing program that lets the user type in a
