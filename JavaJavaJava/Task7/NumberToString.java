@@ -16,7 +16,9 @@ public class NumberToString extends JFrame implements ActionListener {
     }
 
     public void buildUI() {
-        int i;
+        hdx.setText("Enter some text with single-digits:");
+        txt.setSize(5, 20);
+        chk.setText("Convert");
     }
 
     public static void main(String[] args) {
