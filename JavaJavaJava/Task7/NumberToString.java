@@ -6,11 +6,16 @@ public class NumberToString extends JFrame implements ActionListener {
     private JLabel hdx;
     private JTextArea txt;
     private JButton chk;
-    
+
     public NumberToString(String t) {
+        buildUI();
         setTitle(t);
         setSize(300, 300);
         setLocation(150, 200);
         setVisible(true);
+    }
+
+    public void buildUI() {
+        int i;
     }
 }
