@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.StringTokenizer;
 
 public class NumberToString extends JFrame implements ActionListener {
     private JLabel hdx;
@@ -20,6 +21,10 @@ public class NumberToString extends JFrame implements ActionListener {
         txt.setSize(5, 20);
         chk.setText("Convert");
         chk.addActionListener(this);
+    }
+
+    public void convertDigit(String str) {
+        StringTokenizer tk = new StringTokenizer(str);
     }
 
     public void actionPerformed(ActionEvent e) {
