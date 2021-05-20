@@ -21,6 +21,10 @@ public class NumberToString extends JFrame implements ActionListener {
         chk.setText("Convert");
     }
 
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == chk) {}
+    }
+
     public static void main(String[] args) {
         new NumberToString("Number To String Conversion");
     }
