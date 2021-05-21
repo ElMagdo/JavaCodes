@@ -8,10 +8,8 @@ Blocked: Thisi showw ewoul dordi naril ywrit easen tence.
 
 ***7.2*** Design and write a Java Swing program that searches for single-digit numbers in a text and changes them to their corresponding words. For example, the string `“4 score and 7 years ago”` would be converted into `“four score and seven years ago”`.
 
-EXERCISE 7.12 A palindrome is a string that is spelled the same way backward
-and forward. For example, mom, dad, radar, 727 and able was i ere i saw elba are all
-examples of palindromes. Write a Java Swing program that lets the user type in a
-word or phrase and then determines whether the string is a palindrome.
+***7.3*** A palindrome is a string that is spelled the same way backward and forward. For example, *mom, dad, radar, 727* and *able was i ere i saw elba* are all examples of palindromes. Write a Java Swing program that lets the user type in a word or phrase and then determines whether the string is a palindrome.
+
 EXERCISE 7.13 Write a maze program that uses a string to store a representa-
 tion of the maze. Write a method that accepts a String parameter and prints a
 two-dimensional representation of a maze. For example, the maze shown here,
