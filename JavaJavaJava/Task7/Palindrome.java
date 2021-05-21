@@ -9,4 +9,8 @@ public class Palindrome extends JFrame implements ActionListener {
         setLocation(150, 200);
         setVisible(true);
     }
+
+    public static void main(String[] args) {
+        new Palindrome("Check Palindromes");
+    }
 }
