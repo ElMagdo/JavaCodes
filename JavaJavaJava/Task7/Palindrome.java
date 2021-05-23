@@ -35,8 +35,18 @@ public class Palindrome extends JFrame implements ActionListener {
         for (int i = 0, j = s.length(); i < str.length() && j >= 0; i++, j--) {
             if (s.charAt(j) != str.charAt(i)) return false;
         }
-        
+
         return true;
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == txt) {
+            if (isPalindrome(txt.getText())) {
+                disp.setText("Hooray!! String is a Palindrome");
+            } else {
+                disp.setText("Sorry!! Not a Palindrome");
+            }
+        }
     }
 
     public static void main(String[] args) {
