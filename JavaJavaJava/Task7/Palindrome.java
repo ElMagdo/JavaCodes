@@ -9,7 +9,7 @@ public class Palindrome extends JFrame implements ActionListener {
     public Palindrome(String t) {
         buildUI();
         setTitle(t);
-        setSize(300, 300);
+        setSize(250, 200);
         setLocation(150, 200);
         setVisible(true);
     }
@@ -18,7 +18,7 @@ public class Palindrome extends JFrame implements ActionListener {
         hdx = new JLabel("Enter a word or a phrase:");
         txt = new JTextField(15);
         txt.addActionListener(this);
-        disp = new JLabel("Nothing yet!");
+        disp = new JLabel("Press Enter!");
 
         JPanel ct = new JPanel();
         ct.add(hdx);
