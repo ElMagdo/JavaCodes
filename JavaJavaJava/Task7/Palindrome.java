@@ -29,6 +29,16 @@ public class Palindrome extends JFrame implements ActionListener {
         cnt.add("Center", ct);
     }
 
+    public boolean isPalindrome(String str) {
+        String s = str;
+
+        for (int i = 0, j = s.length(); i < str.length() && j >= 0; i++, j--) {
+            if (s.charAt(j) != str.charAt(i)) return false;
+        }
+        
+        return true;
+    }
+
     public static void main(String[] args) {
         new Palindrome("Check Palindromes");
     }
