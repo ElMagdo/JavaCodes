@@ -23,6 +23,10 @@ public class Palindrome extends JFrame implements ActionListener {
         ct.add(hdx);
         ct.add(txt);
         ct.add(disp);
+
+        Container cnt = getContentPane();
+        cnt.setLayout(new BorderLayout());
+        cnt.add("Center", ct);
     }
 
     public static void main(String[] args) {
