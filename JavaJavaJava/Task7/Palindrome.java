@@ -16,7 +16,8 @@ public class Palindrome extends JFrame implements ActionListener {
 
     public void buildUI() {
         hdx = new JLabel("Enter a word or a phrase:");
-        txt = new JTextField(10);
+        txt = new JTextField(15);
+        txt.addActionListener(this);
         disp = new JLabel("Nothing yet!");
 
         JPanel ct = new JPanel();
@@ -32,7 +33,7 @@ public class Palindrome extends JFrame implements ActionListener {
     public boolean isPalindrome(String str) {
         String s = str;
 
-        for (int i = 0, j = s.length(); i < str.length() && j >= 0; i++, j--) {
+        for (int i = 0, j = s.length() - 1; i < str.length() && j >= 0; i++, j--) {
             if (s.charAt(j) != str.charAt(i)) return false;
         }
 
