@@ -26,11 +26,11 @@ Blocked: Thisi showw ewoul dordi naril ywrit easen tence.
         X
         XXXXXXXX X
 
-EXERCISE 7.14 Write a method that takes a delimited string to store a name
-and address, from which you can print a mailing label. For example, if the string
-contains “Sam Penn:14 Bridge St.:Hoboken, NJ 01881,” the method should print
-the label shown:
-Sam Penn 14 Bridge St Haboken, NJ 01881
+***7.5*** Write a method that takes a delimited string to store a name and address, from which you can print a mailing label. For example, if the string contains “`Sam Penn:14 Bridge St.:Hoboken, NJ 01881`”, the method should print the label shown:  
+`Sam Penn`  
+`14 Bridge St.`  
+`Haboken, NJ 01881`
+
 EXERCISE 7.15 Design and implement a Java Swing program that plays Time
 Bomb with the user. Here’s how the game works. The computer picks a secret
 word and then prints one asterisk for each letter in the word: * * * * *. The user
