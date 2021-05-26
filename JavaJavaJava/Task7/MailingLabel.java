@@ -17,7 +17,10 @@ public class MailingLabel {
 
         System.out.print("Enter the string label: ");
         String str = in.nextLine();
-        
+
+        System.out.println("Your mailing label:");
+        display(str);
+
         in.close();
     }
 }
