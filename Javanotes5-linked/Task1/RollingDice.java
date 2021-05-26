@@ -11,4 +11,8 @@ public class RollingDice {
             System.out.println("Your total roll is " + d1 + d2);
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("+++++WELCOME++++++");
+    }
 }
