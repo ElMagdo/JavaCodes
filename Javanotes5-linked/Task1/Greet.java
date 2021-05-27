@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Greet {
     public static void greet(String name) {
-        System.out.println("Hello, " + name + ", nice to meet you!");
+        System.out.println("Hello, " + name.toUpperCase() + ", nice to meet you!");
     }
 
     public static void main(String[] args) {
@@ -12,7 +12,9 @@ public class Greet {
 
         System.out.print("Please input your name: ");
         String name = in.nextLine();
-        
+
+        greet(name);
+
         in.close();
     }
 }
