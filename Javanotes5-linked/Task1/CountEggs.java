@@ -19,6 +19,9 @@ public class CountEggs {
 
         System.out.print("Enter number of eggs: ");
         int eggs = in.nextInt();
+
+        count(eggs);
+
         in.close();
     }
 }
