@@ -23,16 +23,11 @@ were “DJE”, then the output would look something like:
 
 4. Write a program that helps the user count his change. The program should ask how many quarters the user has, then how many dimes, then how many nickels, then how many pennies. Then the program should tell the user how much money he has, expressed in dollars.
 
-5. If you have N eggs, then you have N/12 dozen eggs, with N%12 eggs left over. (This is
-essentially the definition of the / and % operators for integers.) Write a program that asks
-the user how many eggs she has and then tells the user how many dozen eggs she has and
-how many extra eggs are left over.
-A gross of eggs is equal to 144 eggs. Extend your program so that it will tell the user
-how many gross, how many dozen, and how many left over eggs she has. For example, if
-the user says that she has 1342 eggs, then your program would respond with (solution)
-Your number of eggs is 9 gross, 3 dozen, and 10Exercises
-58
+5. If you have N eggs, then you have `N/12` dozen eggs, with `N%12` eggs left over. (This is essentially the definition of the / and % operators for integers.) Write a program that asks the user how many eggs she has and then tells the user how many dozen eggs she has and how many extra eggs are left over.  
+A gross of eggs is equal to 144 eggs. Extend your program so that it will tell the user how many gross, how many dozen, and how many left over eggs she has. For example, if the user says that she has 1342 eggs, then your program would respond with  
+`Your number of eggs is 9 gross, 3 dozen, and 10`  
 since 1342 is equal to 9*144 + 3*12 + 10.
+
 6. Suppose that a file named “testdata.txt” contains the following information: The first
 line of the file is the name of a student. Each of the next three lines contains an integer.
 The integers are the student’s scores on three exams. Write a program that will read
