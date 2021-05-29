@@ -22,6 +22,9 @@ public class Exam1 {
         System.out.print("Enter third term average: ");
         int m3 = in.nextInt();
 
+        System.out.print("Student's name: " + name);
+        System.out.print("Annual average: " + getAverage(m1, m2, m3));
+
         in.close();
     }
 }
