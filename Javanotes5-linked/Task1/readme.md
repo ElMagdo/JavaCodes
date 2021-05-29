@@ -28,10 +28,4 @@ A gross of eggs is equal to 144 eggs. Extend your program so that it will tell t
 `Your number of eggs is 9 gross, 3 dozen, and 10`  
 since 1342 is equal to 9*144 + 3*12 + 10.
 
-6. Suppose that a file named “testdata.txt” contains the following information: The first
-line of the file is the name of a student. Each of the next three lines contains an integer.
-The integers are the student’s scores on three exams. Write a program that will read
-the information in the file and display (on standard output) a message the contains the
-name of the student and the student’s average grade on the three exams. The average is
-obtained by adding up the individual exam grades and then dividing by the number of
-exams.
+6. Suppose that a file named “testdata.txt” contains the following information: The first line of the file is the name of a student. Each of the next three lines contains an integer. The integers are the student’s scores on three exams. Write a program that will read the information in the file and display (on standard output) a message the contains the name of the student and the student’s average grade on the three exams. The average is obtained by adding up the individual exam grades and then dividing by the number of exams.
