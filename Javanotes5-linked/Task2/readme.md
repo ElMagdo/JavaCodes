@@ -1,4 +1,5 @@
-Exercises for Chapter 3
+# Exercises for Chapter 3
+
 1. How many times do you have to roll a pair of dice before they come up snake eyes? You
 could do the experiment by rolling the dice by hand. Write a computer program that
 simulates the experiment. The program should report the number of rolls that it makes
