@@ -3,14 +3,10 @@
 1. How many times do you have to roll a pair of dice before they come up snake eyes? You could do the experiment by rolling the dice by hand. Write a computer program that simulates the experiment. The program should report the number of rolls that it makes before the dice come up snake eyes.  
 **Note**: “**Snake eyes**” means *that both dice show a value of 1*.
 
-2. Which integer between 1 and 10000 has the largest number of divisors, and how many
-divisors does it have? Write a program to find the answers and print out the results. It is
-possible that several integers in this range have the same, maximum number of divisors.
-Your program only has to print out one of them. Subsection 3.4.2 discussed divisors. The
-source code for that example is CountDivisors.java.
-You might need some hints about how to find a maximum value. The basic idea is
-to go through all the integers, keeping track of the largest number of divisors that you’ve
-seen so far. Also, keep track of the integer that had that number of divisors. (solution)
+2. Which integer between 1 and 10000 has the largest number of divisors, and how many divisors does it have? Write a program to find the answers and print out the results. It is possible that several integers in this range have the same, maximum number of divisors. Your program only has to print out one of them.  
+You might need some hints about how to find a maximum value. The basic idea is to go through all the integers, keeping track of the largest number of divisors that you’ve seen so far. Also, keep track of the integer that had that number of divisors.  
+Enhance the program to find the integer with largest number of divisors between 2 given numbers (lower bound and upper bound), between 1 and 10000 with the numbers inclusive.
+
 3. Write a program that will evaluate simple expressions such as 17 + 3 and 3.14159 * 4.7.
 The expressions are to be typed in by the user. The input always consist of a number,
 followed by an operator, followed by another number. The operators that are allowed are
