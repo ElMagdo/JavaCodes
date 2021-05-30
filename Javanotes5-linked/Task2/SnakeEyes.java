@@ -12,4 +12,8 @@ public class SnakeEyes {
 
         System.out.println("It took " + i + " throws to get Snake Eyes");
     }
+
+    public static void main(String[] args) {
+        playSnakeEyes();
+    }
 }
