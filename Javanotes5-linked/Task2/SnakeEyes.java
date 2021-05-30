@@ -6,8 +6,10 @@ public class SnakeEyes {
         int d2 = (int)(Math.random()*6) + 1;
         int i = 0;
 
-        while (d1 != 1 && d2 != 1) {
+        while (d1 != 1 || d2 != 1) {
             i++;
+            d1 = (int)(Math.random()*6) + 1;
+            d2 = (int)(Math.random()*6) + 1;
         }
 
         System.out.println("It took " + i + " throws to get Snake Eyes");
