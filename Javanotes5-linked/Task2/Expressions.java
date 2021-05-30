@@ -32,6 +32,8 @@ public class Expressions {
             
             String op = in.next();
             double b = in.nextDouble();
+
+            evaluate(a, op, b);
         }
         in.close();
     }
