@@ -23,6 +23,16 @@ public class Expressions {
        System.out.println("Welcome to the Expression Evaluation Program");
        System.out.println("Enter an expression such as: 3.5 + 4");
        System.out.println("Enter 0 to exit...");
+
+        while (true) {
+            System.out.print("Enter expression to evaluate: ");
+            double a = in.nextDouble();
+
+            if (a == 0) break;
+            
+            String op = in.next();
+            double b = in.nextDouble();
+        }
         in.close();
     }
 }
