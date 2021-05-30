@@ -11,13 +11,16 @@ public class Divisors {
         return d;
     }
 
-    public static int getHighest(int l, int u) {
+    public static String getHighest(int l, int u) {
         int mx = 0;
+        String str = "tie";
 
         for (int i = l; i <= u; i++) {
-            mx = Math.max(mx, getNumberOfDivisors(i));
+            if (mx > getNumberOfDivisors(i)) {
+                str = mx + " with " + i;
+            }
         }
 
-        return mx;
+        return str;
     }
 }
