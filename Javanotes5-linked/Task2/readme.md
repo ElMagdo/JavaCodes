@@ -7,13 +7,8 @@
 You might need some hints about how to find a maximum value. The basic idea is to go through all the integers, keeping track of the largest number of divisors that you’ve seen so far. Also, keep track of the integer that had that number of divisors.  
 Enhance the program to find the integer with largest number of divisors between 2 given numbers (lower bound and upper bound), between 1 and 10000 with the numbers inclusive.
 
-3. Write a program that will evaluate simple expressions such as 17 + 3 and 3.14159 * 4.7.
-The expressions are to be typed in by the user. The input always consist of a number,
-followed by an operator, followed by another number. The operators that are allowed are
-+, -, *, and /. You can read the numbers with TextIO.getDouble() and the operator
-with TextIO.getChar(). Your program should read an expression, print its value, read
-another expression, print its value, and so on. The program should end when the user
-enters 0 as the first number on the line. (solution)
+3. Write a program that will evaluate simple expressions such as `17 + 3` and `3.14159 * 4.7`. The expressions are to be typed in by the user. The input always consist of a number, followed by an operator, followed by another number. The operators that are allowed are `+, -, *`, and `/`. Your program should read an expression, print its value, read another expression, print its value, and so on. The program should end when the user enters 0 as the first number on the line.
+
 4. Write a program that reads one line of input text and breaks it up into words. The
 words should be output one per line. A word is defined to be a sequence of letters. Any
 characters in the input that are not letters should be discarded. For example, if the user
