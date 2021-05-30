@@ -18,8 +18,9 @@ public class Divisors {
         String str = "tie";
 
         for (int i = l; i <= u; i++) {
-            if (mx > getNumberOfDivisors(i)) {
-                str = mx + " with " + i;
+            if (mx < getNumberOfDivisors(i)) {
+                mx = getNumberOfDivisors(i);
+                str = i + " with " + mx;
             }
         }
 
@@ -36,6 +37,6 @@ public class Divisors {
         int u = in.nextInt();
         in.close();
 
-        System.out.println("The integer with the highest number of divisors is");
+        System.out.println("The integer with the highest number of divisors is " + getHighest(l, u) + " divisors");
     }
 }
