@@ -6,8 +6,7 @@ public class Words {
     public static void printWords(String str) {
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (Character.isLetter(ch)) System.out.print(ch);
-            if (ch == '\'') System.out.print(ch);
+            if (Character.isLetter(ch) || ch == '\'') System.out.print(ch);
             if (ch == ' ') System.out.println();
         }
     }
@@ -17,6 +16,10 @@ public class Words {
 
         System.out.print("Enter a line of text: ");
         String str = in.nextLine();
+
+        printWords(str);
+        System.out.println();
+
         in.close();
     }
 }
