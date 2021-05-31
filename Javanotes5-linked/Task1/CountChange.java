@@ -21,6 +21,7 @@ public class CountChange {
         nickels = in.nextDouble();
         System.out.print("Enter number of Pennies: ");
         pennies = in.nextDouble();
+        convert(quarters, dimes, nickels, pennies);
 
         in.close();
     }
