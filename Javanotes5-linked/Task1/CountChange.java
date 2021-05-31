@@ -11,16 +11,16 @@ public class CountChange {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int quarters, dimes, nickels, pennies;
+        double quarters, dimes, nickels, pennies;
 
         System.out.print("Enter number of Quarters: ");
-        quarters = in.nextInt();
+        quarters = in.nextDouble();
         System.out.print("Enter number of Dimes: ");
-        dimes = in.nextInt();
+        dimes = in.nextDouble();
         System.out.print("Enter number of Nickels: ");
-        nickels = in.nextInt();
+        nickels = in.nextDouble();
         System.out.print("Enter number of Pennies: ");
-        pennies = in.nextInt();
+        pennies = in.nextDouble();
 
         in.close();
     }
