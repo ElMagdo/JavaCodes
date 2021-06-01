@@ -31,6 +31,8 @@ public class Capitalize {
         System.out.print("Enter a line of text: ");
         String txt = in.nextLine();
 
+        printCapitalize(txt);
+
         in.close();
     }
 }
