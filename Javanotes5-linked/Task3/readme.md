@@ -1,4 +1,5 @@
-Exercises for Chapter 4
+# Exercises for Chapter 4
+
 1. To “capitalize” a string means to change the first letter of each word in the string to upper
 case (if it is not already upper case). For example, a capitalized version of “Now is the time
 to act!” is “Now Is The Time To Act!”. Write a subroutine named printCapitalized
