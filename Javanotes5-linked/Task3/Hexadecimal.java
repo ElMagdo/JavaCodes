@@ -6,24 +6,18 @@ public class Hexadecimal {
     
         if (c >= '0' && c <= '9') hv = Integer.parseInt("" + c);
         else {
-            switch(c) {
-                case 'A':
-                case 'a': hv = 10;
+            switch(Character.toUpperCase(c)) {
+                case 'A': hv = 10;
 
-                case 'B':
-                case 'b': hv = 11;
+                case 'B': hv = 11;
 
-                case 'C':
-                case 'c': hv = 12;
+                case 'C': hv = 12;
 
-                case 'D':
-                case 'd': hv = 13;
+                case 'D': hv = 13;
 
-                case 'E':
-                case 'e': hv = 14;
+                case 'E': hv = 14;
 
-                case 'F':
-                case 'f': hv = 15;
+                case 'F': hv = 15;
 
                 default: hv = -1;
             }
