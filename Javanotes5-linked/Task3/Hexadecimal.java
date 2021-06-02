@@ -25,4 +25,21 @@ public class Hexadecimal {
 
         return hv;
     }
+
+    public static boolean validHex(String str) {
+        boolean chk = true;
+        
+        for (int i = 0; i < str.length(); i++) {
+            char ch = Character.toUpperCase(str.charAt(i));
+            boolean isHexLetter = ch >= 'A' && ch <= 'F';
+            boolean isHexNumber = Character.isDigit(str.charAt(i));
+
+            if (!isHexLetter || !isHexNumber) {
+                chk = false;
+                break;
+            }
+        }
+
+        return chk;
+    }
 }
