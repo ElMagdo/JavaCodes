@@ -69,7 +69,7 @@ public class Hexadecimal {
         System.out.print("Enter a valid hexadecimal value: ");
         String hex = in.next();
         
-        if (isValidHex(hex))
+        if (isValidHex(hex)) toDecimal(hex);
         else System.out.println("ERROR!! Invalid hex character found...");
 
         in.close();
