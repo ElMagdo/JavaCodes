@@ -1,5 +1,7 @@
 package Task3;
 
+import java.util.Scanner;
+
 public class Hexadecimal {
     public static int hexvalue(char c) {
         int hv = 0;
@@ -26,7 +28,7 @@ public class Hexadecimal {
         return hv;
     }
 
-    public static boolean validHex(String str) {
+    public static boolean isValidHex(String str) {
         boolean chk = true;
         
         for (int i = 0; i < str.length(); i++) {
@@ -43,13 +45,26 @@ public class Hexadecimal {
         return chk;
     }
 
-    public static int toDecimal(String hex) {
+    public static void toDecimal(String hex) {
         int dec = 0;
-        
+
         for (int i = 0; i < hex.length(); i++) {
             dec = dec*16 + hexvalue(hex.charAt(i));
         }
 
-        return dec;
+        System.out.println("Decimal value: " + dec);
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("+++++++++++++++ WELCOME TO HEX TO DEC CONVERSION APP+++++++++++++++\n");
+        System.out.print("Enter a valid hexadecimal value: ");
+        String hex = in.next();
+        
+        if (isValidHex(hex))
+        else System.out.println("ERROR!! Invalid hex character found...");
+        
+        in.close();
     }
 }
