@@ -42,4 +42,14 @@ public class Hexadecimal {
 
         return chk;
     }
+
+    public static int toDecimal(String hex) {
+        int dec = 0;
+        
+        for (int i = 0; i < hex.length(); i++) {
+            dec = dec*16 + hexvalue(hex.charAt(i));
+        }
+
+        return dec;
+    }
 }
