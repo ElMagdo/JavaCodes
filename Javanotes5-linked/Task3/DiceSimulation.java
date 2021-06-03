@@ -11,7 +11,11 @@ public class DiceSimulation {
             d1 = (int)(Math.random() * 6) + 1;
             d2 = (int)(Math.random() * 6) + 1;
         }
-        
+
         return i;
+    }
+
+    public static boolean validSum(int n) {
+        return (n <= 2) && (n >= 12);
     }
 }
