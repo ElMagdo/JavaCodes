@@ -1,5 +1,7 @@
 package Task3;
 
+import java.util.Scanner;
+
 public class DiceSimulation {
     public static int simulate(int n) {
         int d1 = (int)(Math.random() * 6) + 1;
@@ -17,5 +19,16 @@ public class DiceSimulation {
 
     public static boolean validSum(int n) {
         return (n <= 2) && (n >= 12);
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter dice sum (a number between 2 and 12): ");
+        int n = in.nextInt();
+
+        if () System.out.println("Number of throws to get sum: ");
+        else System.out.println("ERROR!! Invalid dice sum...");
+        in.close();
     }
 }
