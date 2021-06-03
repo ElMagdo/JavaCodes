@@ -17,7 +17,7 @@ public class DiceSimulation {
         return i;
     }
 
-    public static boolean validSum(int n) {
+    public static boolean isValidSum(int n) {
         return (n <= 2) && (n >= 12);
     }
 
@@ -27,8 +27,9 @@ public class DiceSimulation {
         System.out.print("Enter dice sum (a number between 2 and 12): ");
         int n = in.nextInt();
 
-        if () System.out.println("Number of throws to get sum: ");
+        if (isValidSum(n)) System.out.println("Number of throws to get sum: " + simulate(n));
         else System.out.println("ERROR!! Invalid dice sum...");
+
         in.close();
     }
 }
