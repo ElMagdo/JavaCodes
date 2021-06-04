@@ -22,4 +22,9 @@ public class RollingAverage {
 
         return Double.parseDouble(tot / r + "");
     }
+
+    public static void main(String[] args) {
+        System.out.println("\t\tTotal on Dice\t\t\tAverage Number of Rolls");
+        System.out.println("\t\t-------------\t\t\t-----------------------");
+    }
 }
