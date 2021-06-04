@@ -14,4 +14,12 @@ public class RollingAverage {
 
         return i;
     }
+
+    public static double getAvgRoll(int n, int r) {
+        int tot = 0;
+
+        for (int i = 0; i < r; i++) tot += getRoll(n);
+
+        return Double.parseDouble(tot / r + "");
+    }
 }
