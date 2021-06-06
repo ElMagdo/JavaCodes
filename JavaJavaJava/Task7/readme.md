@@ -75,14 +75,10 @@ of
 first
 element
 items
-EXERCISE 7.19 Challenge: Use a delimited string to create a PhoneList class
-with an instance method to insert names and phone numbers, and a method to
-look up a phone number when a user provides a person’s name. Since your class
-will take care of looking things up, you don’t have to worry about keeping the list
-in alphabetical order. For example, the following string could be used as such a
-directory:
-
-mom:860 −192 −9876:: b i l l g :654 −0987 −1234:: mary l a n c e l o t :123 −842 −1100
+
+***7.18*** Use a delimited string to create a `PhoneList` class with an instance method to insert names and phone numbers, and a method to look up a phone number when a user provides a person’s name. Since your class will take care of looking things up, you don’t have to worry about keeping the list in alphabetical order. For example, the following string could be used as such a directory:  
+`mom:860-192-9876::bill g:654-0987-1234::mary lancelot:123-842-1100`
+
 EXERCISE 7.20 Design and implement an application that displays a multi-line
 message in various fonts and sizes input by the user. Let the user choose from
 among a fixed selection of fonts, sizes, and styles.
