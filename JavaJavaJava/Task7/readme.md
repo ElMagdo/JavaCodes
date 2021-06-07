@@ -42,13 +42,9 @@ should replace every occurrence of the target string in the document with the re
 placement string. For example, if the document is “To be or not to be, that is the
 question,” and the target string is “be,”, and the replacement string is “see,” the
 result should be, “To see or not to see, that is the question.”
-EXERCISE 7.17 Challenge: Design and implement a Java Swing Program that
-plays the following game with the user. Let the user pick a letter between A and
-Z. Then let the computer guess, the secret letter. For every guess the player has to
-tell the computer whether it’s too high or too low. The computer should be able to
-guess the letter within five guesses. Do you see why?CHAPTER 7 •
-Exercises
-335
+
+***7.8*** Design and implement a **Java Swing Program** that plays the following game with the user. Let the user pick a letter between A and Z. Then let the computer guess, the secret letter. For every guess the player has to tell the computer whether it’s too high or too low. The computer should be able to guess the letter within five guesses. Do you see why?
+
 EXERCISE 7.18 Challenge: A list is a sequential data structure. Design a List
 class that uses a comma-delimited String—such as, “a,b,c,d,12,dog”—to imple-
 ment a list. Implement the following methods for this class:
@@ -76,7 +72,7 @@ first
 element
 items
 
-***7.18*** Use a delimited string to create a `PhoneList` class with an instance method to insert names and phone numbers, and a method to look up a phone number when a user provides a person’s name. Since your class will take care of looking things up, you don’t have to worry about keeping the list in alphabetical order. For example, the following string could be used as such a directory:  
+***7.10*** Use a delimited string to create a `PhoneList` class with an instance method to insert names and phone numbers, and a method to look up a phone number when a user provides a person’s name. Since your class will take care of looking things up, you don’t have to worry about keeping the list in alphabetical order. For example, the following string could be used as such a directory:  
 `mom:860-192-9876::bill g:654-0987-1234::mary lancelot:123-842-1100`
 
 EXERCISE 7.20 Design and implement an application that displays a multi-line
