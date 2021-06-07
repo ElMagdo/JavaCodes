@@ -27,13 +27,7 @@ String: *XX_XXXXXXXX__XXX_XXXX_XX____XXX__XX__XX__XXX____X____XXXXXXXX_X*
 
 ***7.6*** Design and implement a **Java Swing program** that plays Time Bomb with the user. Here’s how the game works. The computer picks a secret word and then prints one asterisk for each letter in the word: `* * * * *`. The user guesses at the letters in the word. For every correct guess, an asterisk is replaced by a letter: `* e * * *`. For every incorrect guess, the time bomb’s fuse grows shorter. When the fuse disappears, after say, six incorrect guesses, the bomb explodes. Store the secret words in a delimited string and invent your own representation for the time bomb.
 
-EXERCISE 7.16 Challenge: The global replace function is a string-processing
-algorithm found in every word processor. Write a method that takes three String
-arguments: a document, a target string, and a replacement string. The method
-should replace every occurrence of the target string in the document with the re-
-placement string. For example, if the document is “To be or not to be, that is the
-question,” and the target string is “be,”, and the replacement string is “see,” the
-result should be, “To see or not to see, that is the question.”
+***7.7*** The global replace function is a string-processing algorithm found in every word processor. Write a method that takes *three* String arguments: *a document, a target string*, and *a replacement string*. The method should replace every occurrence of the target string in the document with the replacement string. For example, if the document is “`To be or not to be, that is the question`,” and the target string is “`be`,”, and the replacement string is “`see`,” the result should be, “`To see or not to see, that is the question`.”
 
 ***7.8*** Design and implement a **Java Swing Program** that plays the following game with the user. Let the user pick a letter between A and Z. Then let the computer guess, the secret letter. For every guess the player has to tell the computer whether it’s too high or too low. The computer should be able to guess the letter within five guesses. Do you see why?
 
