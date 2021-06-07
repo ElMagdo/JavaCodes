@@ -31,32 +31,16 @@ String: *XX_XXXXXXXX__XXX_XXXX_XX____XXX__XX__XX__XXX____X____XXXXXXXX_X*
 
 ***7.8*** Design and implement a **Java Swing Program** that plays the following game with the user. Let the user pick a letter between A and Z. Then let the computer guess, the secret letter. For every guess the player has to tell the computer whether it’s too high or too low. The computer should be able to guess the letter within five guesses. Do you see why?
 
-EXERCISE 7.18 Challenge: A list is a sequential data structure. Design a List
-class that uses a comma-delimited String—such as, “a,b,c,d,12,dog”—to imple-
-ment a list. Implement the following methods for this class:
-
-void addItem ( O b j e c t o ) ;
-S t r i n g getItem ( int p o s i t i o n ) ;
-String toString ( ) ;
-void d e l e t e I t e m ( i n t p o s i t i o n ) ;
-void d e l e t e I t e m ( S t r i n g item ) ;
-i n t g e t P o s i t i o n ( S t r i n g item ) ;
-S t r i n g getHead ( ) ;
-List getTail ( ) ;
-int length ( ) ;
-//
-Use
-Object . toString ()
-// First
-// All
-// Number
-element
-but
-the
-of
-first
-element
-items
+***7.9*** A list is a sequential data structure. Design a `List class` that uses a comma-delimited `String`-such as, “a,b,c,d,12,dog”—to implement a list. Implement the following methods for this class:  
+`void addItem(Object o);` //Use Object.toString()  
+`String getItem(int position);`  
+`String toString();`  
+`void deleteItem(int position);`  
+`void deleteItem(String item);`  
+`int getPosition(String item);`  
+`String getHead();` //First element  
+`List getTail();` //All but the first element  
+`int length();` //Number of items
 
 ***7.10*** Use a delimited string to create a `PhoneList` class with an instance method to insert names and phone numbers, and a method to look up a phone number when a user provides a person’s name. Since your class will take care of looking things up, you don’t have to worry about keeping the list in alphabetical order. For example, the following string could be used as such a directory:  
 `mom:860-192-9876::bill g:654-0987-1234::mary lancelot:123-842-1100`
