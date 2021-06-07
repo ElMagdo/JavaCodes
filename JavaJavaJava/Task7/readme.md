@@ -25,16 +25,8 @@ String: *XX_XXXXXXXX__XXX_XXXX_XX____XXX__XX__XX__XXX____X____XXXXXXXX_X*
 `14 Bridge St.`  
 `Haboken, NJ 01881`
 
-EXERCISE 7.15 Design and implement a Java Swing program that plays Time
-Bomb with the user. Here’s how the game works. The computer picks a secret
-word and then prints one asterisk for each letter in the word: * * * * *. The user
-guesses at the letters in the word. For every correct guess, an asterisk is replaced by
-a
-letter:
-* e * * *. For every incorrect guess, the time bomb’s fuse grows shorter. When
-the fuse disappears, after say, six incorrect guesses, the bomb explodes. Store the
-secret words in a delimited string and invent your own representation for the time
-bomb.
+***7.6*** Design and implement a **Java Swing program** that plays Time Bomb with the user. Here’s how the game works. The computer picks a secret word and then prints one asterisk for each letter in the word: `* * * * *`. The user guesses at the letters in the word. For every correct guess, an asterisk is replaced by a letter: `* e * * *`. For every incorrect guess, the time bomb’s fuse grows shorter. When the fuse disappears, after say, six incorrect guesses, the bomb explodes. Store the secret words in a delimited string and invent your own representation for the time bomb.
+
 EXERCISE 7.16 Challenge: The global replace function is a string-processing
 algorithm found in every word processor. Write a method that takes three String
 arguments: a document, a target string, and a replacement string. The method
